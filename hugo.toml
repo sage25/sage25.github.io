@@ -1,8 +1,49 @@
 baseURL = 'https://sage25.github.io'
 locale = 'zh-cn'
-title = 'Sage の Blog'
+title = 'Sage Blog'
 theme = 'hugo-coder'
 
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
+
+[params]
+  author = "Sage"
+  info = "后端开发 / 分享学习历程"
+  colorScheme = "auto"
+  
+  avatarURL = "images/avatar.jpg"
+  customCSS = ["css/custom.css"]
+  
+  # 社交链接
+  [[params.social]]
+    name = "GitHub"
+    icon = "fa-brands fa-github"
+    url = "https://github.com/sage25"
+  [[params.social]]
+    name = "Email"
+    icon = "fa-solid fa-envelope"
+    url = "mailto:gr.dev@outlook.com"
+
+[[menus.main]]
+  name = "Tags"
+  pageRef = "tags"
+
+[[menus.main]]
+  name = "Posts"
+  pageRef = "posts"
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  series = "series"
+
+[markup]
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 5   
+    ordered = false
+  
+[params.entry]
+  toc = true
+  tocOpen = true  
