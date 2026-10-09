@@ -1,0 +1,8 @@
+baseURL = 'https://sage25.github.io'
+locale = 'zh-cn'
+title = 'Sage の Blog'
+theme = 'hugo-coder'
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
