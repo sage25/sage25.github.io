@@ -1,0 +1,233 @@
+<svg id="mermaid-svg-K0raM9kVhXL9YxM4" width="100%" xmlns="http://www.w3.org/2000/svg" class="classDiagram" style="max-width: 766.8203125px;" viewBox="0 0 766.8203125 450">
+  <style>#mermaid-svg-K0raM9kVhXL9YxM4{font-family:"trebuchet ms",verdana,arial,sans-serif;font-size:16px;fill:#333;}@keyframes edge-animation-frame{from{stroke-dashoffset:0;}}@keyframes dash{to{stroke-dashoffset:0;}}#mermaid-svg-K0raM9kVhXL9YxM4 .edge-animation-slow{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 50s linear infinite;stroke-linecap:round;}#mermaid-svg-K0raM9kVhXL9YxM4 .edge-animation-fast{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 20s linear infinite;stroke-linecap:round;}#mermaid-svg-K0raM9kVhXL9YxM4 .error-icon{fill:#552222;}#mermaid-svg-K0raM9kVhXL9YxM4 .error-text{fill:#552222;stroke:#552222;}#mermaid-svg-K0raM9kVhXL9YxM4 .edge-thickness-normal{stroke-width:1px;}#mermaid-svg-K0raM9kVhXL9YxM4 .edge-thickness-thick{stroke-width:3.5px;}#mermaid-svg-K0raM9kVhXL9YxM4 .edge-pattern-solid{stroke-dasharray:0;}#mermaid-svg-K0raM9kVhXL9YxM4 .edge-thickness-invisible{stroke-width:0;fill:none;}#mermaid-svg-K0raM9kVhXL9YxM4 .edge-pattern-dashed{stroke-dasharray:3;}#mermaid-svg-K0raM9kVhXL9YxM4 .edge-pattern-dotted{stroke-dasharray:2;}#mermaid-svg-K0raM9kVhXL9YxM4 .marker{fill:#333333;stroke:#333333;}#mermaid-svg-K0raM9kVhXL9YxM4 .marker.cross{stroke:#333333;}#mermaid-svg-K0raM9kVhXL9YxM4 svg{font-family:"trebuchet ms",verdana,arial,sans-serif;font-size:16px;}#mermaid-svg-K0raM9kVhXL9YxM4 p{margin:0;}#mermaid-svg-K0raM9kVhXL9YxM4 g.classGroup text{fill:#9370DB;stroke:none;font-family:"trebuchet ms",verdana,arial,sans-serif;font-size:10px;}#mermaid-svg-K0raM9kVhXL9YxM4 g.classGroup text .title{font-weight:bolder;}#mermaid-svg-K0raM9kVhXL9YxM4 .cluster-label text{fill:#333;}#mermaid-svg-K0raM9kVhXL9YxM4 .cluster-label span{color:#333;}#mermaid-svg-K0raM9kVhXL9YxM4 .cluster-label span p{background-color:transparent;}#mermaid-svg-K0raM9kVhXL9YxM4 .cluster rect{fill:#ffffde;stroke:#aaaa33;stroke-width:1px;}#mermaid-svg-K0raM9kVhXL9YxM4 .cluster text{fill:#333;}#mermaid-svg-K0raM9kVhXL9YxM4 .cluster span{color:#333;}#mermaid-svg-K0raM9kVhXL9YxM4 .nodeLabel,#mermaid-svg-K0raM9kVhXL9YxM4 .edgeLabel{color:#131300;}#mermaid-svg-K0raM9kVhXL9YxM4 .edgeLabel .label rect{fill:#ECECFF;}#mermaid-svg-K0raM9kVhXL9YxM4 .label text{fill:#131300;}#mermaid-svg-K0raM9kVhXL9YxM4 .labelBkg{background:#ECECFF;}#mermaid-svg-K0raM9kVhXL9YxM4 .edgeLabel .label span{background:#ECECFF;}#mermaid-svg-K0raM9kVhXL9YxM4 .classTitle{font-weight:bolder;}#mermaid-svg-K0raM9kVhXL9YxM4 .node rect,#mermaid-svg-K0raM9kVhXL9YxM4 .node circle,#mermaid-svg-K0raM9kVhXL9YxM4 .node ellipse,#mermaid-svg-K0raM9kVhXL9YxM4 .node polygon,#mermaid-svg-K0raM9kVhXL9YxM4 .node path{fill:#ECECFF;stroke:#9370DB;stroke-width:1px;}#mermaid-svg-K0raM9kVhXL9YxM4 .divider{stroke:#9370DB;stroke-width:1;}#mermaid-svg-K0raM9kVhXL9YxM4 g.clickable{cursor:pointer;}#mermaid-svg-K0raM9kVhXL9YxM4 g.classGroup rect{fill:#ECECFF;stroke:#9370DB;}#mermaid-svg-K0raM9kVhXL9YxM4 g.classGroup line{stroke:#9370DB;stroke-width:1;}#mermaid-svg-K0raM9kVhXL9YxM4 .classLabel .box{stroke:none;stroke-width:0;fill:#ECECFF;opacity:0.5;}#mermaid-svg-K0raM9kVhXL9YxM4 .classLabel .label{fill:#9370DB;font-size:10px;}#mermaid-svg-K0raM9kVhXL9YxM4 .relation{stroke:#333333;stroke-width:1;fill:none;}#mermaid-svg-K0raM9kVhXL9YxM4 .dashed-line{stroke-dasharray:3;}#mermaid-svg-K0raM9kVhXL9YxM4 .dotted-line{stroke-dasharray:1 2;}#mermaid-svg-K0raM9kVhXL9YxM4 #compositionStart,#mermaid-svg-K0raM9kVhXL9YxM4 .composition{fill:#333333!important;stroke:#333333!important;stroke-width:1;}#mermaid-svg-K0raM9kVhXL9YxM4 #compositionEnd,#mermaid-svg-K0raM9kVhXL9YxM4 .composition{fill:#333333!important;stroke:#333333!important;stroke-width:1;}#mermaid-svg-K0raM9kVhXL9YxM4 #dependencyStart,#mermaid-svg-K0raM9kVhXL9YxM4 .dependency{fill:#333333!important;stroke:#333333!important;stroke-width:1;}#mermaid-svg-K0raM9kVhXL9YxM4 #dependencyStart,#mermaid-svg-K0raM9kVhXL9YxM4 .dependency{fill:#333333!important;stroke:#333333!important;stroke-width:1;}#mermaid-svg-K0raM9kVhXL9YxM4 #extensionStart,#mermaid-svg-K0raM9kVhXL9YxM4 .extension{fill:transparent!important;stroke:#333333!important;stroke-width:1;}#mermaid-svg-K0raM9kVhXL9YxM4 #extensionEnd,#mermaid-svg-K0raM9kVhXL9YxM4 .extension{fill:transparent!important;stroke:#333333!important;stroke-width:1;}#mermaid-svg-K0raM9kVhXL9YxM4 #aggregationStart,#mermaid-svg-K0raM9kVhXL9YxM4 .aggregation{fill:transparent!important;stroke:#333333!important;stroke-width:1;}#mermaid-svg-K0raM9kVhXL9YxM4 #aggregationEnd,#mermaid-svg-K0raM9kVhXL9YxM4 .aggregation{fill:transparent!important;stroke:#333333!important;stroke-width:1;}#mermaid-svg-K0raM9kVhXL9YxM4 #lollipopStart,#mermaid-svg-K0raM9kVhXL9YxM4 .lollipop{fill:#ECECFF!important;stroke:#333333!important;stroke-width:1;}#mermaid-svg-K0raM9kVhXL9YxM4 #lollipopEnd,#mermaid-svg-K0raM9kVhXL9YxM4 .lollipop{fill:#ECECFF!important;stroke:#333333!important;stroke-width:1;}#mermaid-svg-K0raM9kVhXL9YxM4 .edgeTerminals{font-size:11px;line-height:initial;}#mermaid-svg-K0raM9kVhXL9YxM4 .classTitleText{text-anchor:middle;font-size:18px;fill:#333;}#mermaid-svg-K0raM9kVhXL9YxM4 .label-icon{display:inline-block;height:1em;overflow:visible;vertical-align:-0.125em;}#mermaid-svg-K0raM9kVhXL9YxM4 .node .label-icon path{fill:currentColor;stroke:revert;stroke-width:revert;}#mermaid-svg-K0raM9kVhXL9YxM4 :root{--mermaid-font-family:"trebuchet ms",verdana,arial,sans-serif;}</style>
+  <g>
+   <defs>
+    <marker id="mermaid-svg-K0raM9kVhXL9YxM4_class-aggregationStart" class="marker aggregation class" refX="18" refY="7" markerWidth="190" markerHeight="240" orient="auto">
+     <path d="M 18,7 L9,13 L1,7 L9,1 Z"></path>
+    </marker>
+   </defs>
+   <defs>
+    <marker id="mermaid-svg-K0raM9kVhXL9YxM4_class-aggregationEnd" class="marker aggregation class" refX="1" refY="7" markerWidth="20" markerHeight="28" orient="auto">
+     <path d="M 18,7 L9,13 L1,7 L9,1 Z"></path>
+    </marker>
+   </defs>
+   <defs>
+    <marker id="mermaid-svg-K0raM9kVhXL9YxM4_class-extensionStart" class="marker extension class" refX="18" refY="7" markerWidth="190" markerHeight="240" orient="auto">
+     <path d="M 1,7 L18,13 V 1 Z"></path>
+    </marker>
+   </defs>
+   <defs>
+    <marker id="mermaid-svg-K0raM9kVhXL9YxM4_class-extensionEnd" class="marker extension class" refX="1" refY="7" markerWidth="20" markerHeight="28" orient="auto">
+     <path d="M 1,1 V 13 L18,7 Z"></path>
+    </marker>
+   </defs>
+   <defs>
+    <marker id="mermaid-svg-K0raM9kVhXL9YxM4_class-compositionStart" class="marker composition class" refX="18" refY="7" markerWidth="190" markerHeight="240" orient="auto">
+     <path d="M 18,7 L9,13 L1,7 L9,1 Z"></path>
+    </marker>
+   </defs>
+   <defs>
+    <marker id="mermaid-svg-K0raM9kVhXL9YxM4_class-compositionEnd" class="marker composition class" refX="1" refY="7" markerWidth="20" markerHeight="28" orient="auto">
+     <path d="M 18,7 L9,13 L1,7 L9,1 Z"></path>
+    </marker>
+   </defs>
+   <defs>
+    <marker id="mermaid-svg-K0raM9kVhXL9YxM4_class-dependencyStart" class="marker dependency class" refX="6" refY="7" markerWidth="190" markerHeight="240" orient="auto">
+     <path d="M 5,7 L9,13 L1,7 L9,1 Z"></path>
+    </marker>
+   </defs>
+   <defs>
+    <marker id="mermaid-svg-K0raM9kVhXL9YxM4_class-dependencyEnd" class="marker dependency class" refX="13" refY="7" markerWidth="20" markerHeight="28" orient="auto">
+     <path d="M 18,7 L9,13 L14,7 L9,1 Z"></path>
+    </marker>
+   </defs>
+   <defs>
+    <marker id="mermaid-svg-K0raM9kVhXL9YxM4_class-lollipopStart" class="marker lollipop class" refX="13" refY="7" markerWidth="190" markerHeight="240" orient="auto">
+     <circle fill="transparent" cx="7" cy="7" r="6"></circle>
+    </marker>
+   </defs>
+   <defs>
+    <marker id="mermaid-svg-K0raM9kVhXL9YxM4_class-lollipopEnd" class="marker lollipop class" refX="1" refY="7" markerWidth="190" markerHeight="240" orient="auto">
+     <circle fill="transparent" cx="7" cy="7" r="6"></circle>
+    </marker>
+   </defs>
+   <g class="root">
+    <g class="clusters"></g>
+    <g class="edgePaths">
+     <path d="M200.77,182.489L195.103,185.574C189.436,188.659,178.103,194.83,172.436,208.081C166.77,221.333,166.77,241.667,166.77,251.833L166.77,262" id="id_LogStrategy_ConsoleStrategy_1" class="edge-thickness-normal edge-pattern-solid relation" style=";;;" marker-start="url(#mermaid-svg-K0raM9kVhXL9YxM4_class-extensionStart)"></path>
+     <path d="M533.179,182.489L538.846,185.574C544.513,188.659,555.846,194.83,561.513,202.081C567.18,209.333,567.18,217.667,567.18,221.833L567.18,226" id="id_LogStrategy_FileStrategy_2" class="edge-thickness-normal edge-pattern-solid relation" style=";;;" marker-start="url(#mermaid-svg-K0raM9kVhXL9YxM4_class-extensionStart)"></path>
+    </g>
+    <g class="edgeLabels">
+     <g class="edgeLabel">
+      <g class="label" transform="translate(0, 0)">
+       <foreignObject width="0" height="0">
+        <div class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;" xmlns="http://www.w3.org/1999/xhtml">
+         <span class="edgeLabel"></span>
+        </div>
+       </foreignObject>
+      </g>
+     </g>
+     <g class="edgeLabel">
+      <g class="label" transform="translate(0, 0)">
+       <foreignObject width="0" height="0">
+        <div class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;" xmlns="http://www.w3.org/1999/xhtml">
+         <span class="edgeLabel"></span>
+        </div>
+       </foreignObject>
+      </g>
+     </g>
+    </g>
+    <g class="nodes">
+     <g class="node default" id="classId-LogStrategy-6" transform="translate(366.974609375, 92)">
+      <g class="basic label-container">
+       <path d="M-151.0546875 -84 L151.0546875 -84 L151.0546875 84 L-151.0546875 84" stroke="none" stroke-width="0" fill="#ECECFF" style=""></path>
+       <path d="M-151.0546875 -84 C-68.28789904360588 -84, 14.478889412788249 -84, 151.0546875 -84 M-151.0546875 -84 C-46.18641082060442 -84, 58.681865858791156 -84, 151.0546875 -84 M151.0546875 -84 C151.0546875 -20.216528949968286, 151.0546875 43.56694210006343, 151.0546875 84 M151.0546875 -84 C151.0546875 -32.748889550387496, 151.0546875 18.50222089922501, 151.0546875 84 M151.0546875 84 C90.39923676266733 84, 29.743786025334657 84, -151.0546875 84 M151.0546875 84 C65.33595817756893 84, -20.382771144862147 84, -151.0546875 84 M-151.0546875 84 C-151.0546875 25.69495655097871, -151.0546875 -32.61008689804258, -151.0546875 -84 M-151.0546875 84 C-151.0546875 35.39031712221731, -151.0546875 -13.219365755565377, -151.0546875 -84" stroke="#9370DB" stroke-width="1.3" fill="none" stroke-dasharray="0 0" style=""></path>
+      </g>
+      <g class="annotation-group text" transform="translate(-37.90625, -60)">
+       <g class="label" style="" transform="translate(0,-12)">
+        <foreignObject width="75.8125" height="24">
+         <div style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 126px; text-align: center;" xmlns="http://www.w3.org/1999/xhtml">
+          <span class="nodeLabel markdown-node-label" style=""><p>«abstract»</p></span>
+         </div>
+        </foreignObject>
+       </g>
+      </g>
+      <g class="label-group text" transform="translate(-43.7109375, -36)">
+       <g class="label" style="font-weight: bolder" transform="translate(0,-12)">
+        <foreignObject width="87.421875" height="24">
+         <div style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 139px; text-align: center;" xmlns="http://www.w3.org/1999/xhtml">
+          <span class="nodeLabel markdown-node-label" style=""><p>LogStrategy</p></span>
+         </div>
+        </foreignObject>
+       </g>
+      </g>
+      <g class="members-group text" transform="translate(-139.0546875, 12)">
+       <g class="label" style="" transform="translate(0,-12)">
+        <foreignObject width="107.375" height="24">
+         <div style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 165px; text-align: center;" xmlns="http://www.w3.org/1999/xhtml">
+          <span class="nodeLabel markdown-node-label" style=""><p>#mutex: Mutex</p></span>
+         </div>
+        </foreignObject>
+       </g>
+      </g>
+      <g class="methods-group text" transform="translate(-139.0546875, 60)">
+       <g class="label" style="font-style:italic;" transform="translate(0,-12)">
+        <foreignObject width="234.3984375" height="24">
+         <div style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 299px; text-align: center;" xmlns="http://www.w3.org/1999/xhtml">
+          <span class="nodeLabel markdown-node-label" style=""><p>+SyncLog(message: string) : void</p></span>
+         </div>
+        </foreignObject>
+       </g>
+      </g>
+      <g class="divider" style="">
+       <path d="M-151.0546875 -12 C-55.75072738607619 -12, 39.553232727847615 -12, 151.0546875 -12 M-151.0546875 -12 C-89.81454116612562 -12, -28.574394832251244 -12, 151.0546875 -12" stroke="#9370DB" stroke-width="1.3" fill="none" stroke-dasharray="0 0" style=""></path>
+      </g>
+      <g class="divider" style="">
+       <path d="M-151.0546875 36 C-45.15634583505553 36, 60.741995829888936 36, 151.0546875 36 M-151.0546875 36 C-78.73213106506567 36, -6.409574630131345 36, 151.0546875 36" stroke="#9370DB" stroke-width="1.3" fill="none" stroke-dasharray="0 0" style=""></path>
+      </g>
+     </g>
+     <g class="node default" id="classId-ConsoleStrategy-7" transform="translate(166.76953125, 334)">
+      <g class="basic label-container">
+       <path d="M-158.76953125 -72 L158.76953125 -72 L158.76953125 72 L-158.76953125 72" stroke="none" stroke-width="0" fill="#ECECFF" style=""></path>
+       <path d="M-158.76953125 -72 C-70.1445998007416 -72, 18.480331648516795 -72, 158.76953125 -72 M-158.76953125 -72 C-48.99231144581893 -72, 60.784908358362145 -72, 158.76953125 -72 M158.76953125 -72 C158.76953125 -19.684898216097956, 158.76953125 32.63020356780409, 158.76953125 72 M158.76953125 -72 C158.76953125 -31.208683655787873, 158.76953125 9.582632688424255, 158.76953125 72 M158.76953125 72 C70.56022382454879 72, -17.64908360090243 72, -158.76953125 72 M158.76953125 72 C94.808938824965 72, 30.848346399929994 72, -158.76953125 72 M-158.76953125 72 C-158.76953125 27.994946772271156, -158.76953125 -16.010106455457688, -158.76953125 -72 M-158.76953125 72 C-158.76953125 39.86715499949127, -158.76953125 7.734309998982539, -158.76953125 -72" stroke="#9370DB" stroke-width="1.3" fill="none" stroke-dasharray="0 0" style=""></path>
+      </g>
+      <g class="annotation-group text" transform="translate(0, -48)"></g>
+      <g class="label-group text" transform="translate(-59.8203125, -48)">
+       <g class="label" style="font-weight: bolder" transform="translate(0,-12)">
+        <foreignObject width="119.640625" height="24">
+         <div style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 172px; text-align: center;" xmlns="http://www.w3.org/1999/xhtml">
+          <span class="nodeLabel markdown-node-label" style=""><p>ConsoleStrategy</p></span>
+         </div>
+        </foreignObject>
+       </g>
+      </g>
+      <g class="members-group text" transform="translate(-146.76953125, 0)">
+       <g class="label" style="" transform="translate(0,-12)">
+        <foreignObject width="104.859375" height="24">
+         <div style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 162px; text-align: center;" xmlns="http://www.w3.org/1999/xhtml">
+          <span class="nodeLabel markdown-node-label" style=""><p>-mutex: Mutex</p></span>
+         </div>
+        </foreignObject>
+       </g>
+      </g>
+      <g class="methods-group text" transform="translate(-146.76953125, 48)">
+       <g class="label" style="" transform="translate(0,-12)">
+        <foreignObject width="233.71875" height="24">
+         <div style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 299px; text-align: center;" xmlns="http://www.w3.org/1999/xhtml">
+          <span class="nodeLabel markdown-node-label" style=""><p>+SyncLog(message: string) : void</p></span>
+         </div>
+        </foreignObject>
+       </g>
+      </g>
+      <g class="divider" style="">
+       <path d="M-158.76953125 -24 C-72.58813110607157 -24, 13.593269037856857 -24, 158.76953125 -24 M-158.76953125 -24 C-58.04136489478613 -24, 42.686801460427745 -24, 158.76953125 -24" stroke="#9370DB" stroke-width="1.3" fill="none" stroke-dasharray="0 0" style=""></path>
+      </g>
+      <g class="divider" style="">
+       <path d="M-158.76953125 24 C-43.7851302307906 24, 71.1992707884188 24, 158.76953125 24 M-158.76953125 24 C-74.64500403764454 24, 9.47952317471092 24, 158.76953125 24" stroke="#9370DB" stroke-width="1.3" fill="none" stroke-dasharray="0 0" style=""></path>
+      </g>
+     </g>
+     <g class="node default" id="classId-FileStrategy-8" transform="translate(567.1796875, 334)">
+      <g class="basic label-container">
+       <path d="M-191.640625 -108 L191.640625 -108 L191.640625 108 L-191.640625 108" stroke="none" stroke-width="0" fill="#ECECFF" style=""></path>
+       <path d="M-191.640625 -108 C-111.70754045915423 -108, -31.774455918308462 -108, 191.640625 -108 M-191.640625 -108 C-71.24825204771213 -108, 49.14412090457574 -108, 191.640625 -108 M191.640625 -108 C191.640625 -34.207197294347665, 191.640625 39.58560541130467, 191.640625 108 M191.640625 -108 C191.640625 -64.01566548732723, 191.640625 -20.031330974654452, 191.640625 108 M191.640625 108 C98.69791244036352 108, 5.755199880727048 108, -191.640625 108 M191.640625 108 C76.46216242903269 108, -38.716300141934624 108, -191.640625 108 M-191.640625 108 C-191.640625 30.244681309531373, -191.640625 -47.510637380937254, -191.640625 -108 M-191.640625 108 C-191.640625 61.25730449485281, -191.640625 14.514608989705621, -191.640625 -108" stroke="#9370DB" stroke-width="1.3" fill="none" stroke-dasharray="0 0" style=""></path>
+      </g>
+      <g class="annotation-group text" transform="translate(0, -84)"></g>
+      <g class="label-group text" transform="translate(-44.7578125, -84)">
+       <g class="label" style="font-weight: bolder" transform="translate(0,-12)">
+        <foreignObject width="89.515625" height="24">
+         <div style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 138px; text-align: center;" xmlns="http://www.w3.org/1999/xhtml">
+          <span class="nodeLabel markdown-node-label" style=""><p>FileStrategy</p></span>
+         </div>
+        </foreignObject>
+       </g>
+      </g>
+      <g class="members-group text" transform="translate(-179.640625, -36)">
+       <g class="label" style="" transform="translate(0,-12)">
+        <foreignObject width="97.7421875" height="24">
+         <div style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 155px; text-align: center;" xmlns="http://www.w3.org/1999/xhtml">
+          <span class="nodeLabel markdown-node-label" style=""><p>-_path: string</p></span>
+         </div>
+        </foreignObject>
+       </g>
+       <g class="label" style="" transform="translate(0,12)">
+        <foreignObject width="128.4140625" height="24">
+         <div style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 187px; text-align: center;" xmlns="http://www.w3.org/1999/xhtml">
+          <span class="nodeLabel markdown-node-label" style=""><p>-_filename: string</p></span>
+         </div>
+        </foreignObject>
+       </g>
+       <g class="label" style="" transform="translate(0,36)">
+        <foreignObject width="104.859375" height="24">
+         <div style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 162px; text-align: center;" xmlns="http://www.w3.org/1999/xhtml">
+          <span class="nodeLabel markdown-node-label" style=""><p>-mutex: Mutex</p></span>
+         </div>
+        </foreignObject>
+       </g>
+      </g>
+      <g class="methods-group text" transform="translate(-179.640625, 60)">
+       <g class="label" style="" transform="translate(0,-12)">
+        <foreignObject width="314.5234375" height="24">
+         <div style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 373px; text-align: center;" xmlns="http://www.w3.org/1999/xhtml">
+          <span class="nodeLabel markdown-node-label" style=""><p>+FileStrategy(path: string, filename: string)</p></span>
+         </div>
+        </foreignObject>
+       </g>
+       <g class="label" style="" transform="translate(0,12)">
+        <foreignObject width="233.71875" height="24">
+         <div style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 299px; text-align: center;" xmlns="http://www.w3.org/1999/xhtml">
+          <span class="nodeLabel markdown-node-label" style=""><p>+SyncLog(message: string) : void</p></span>
+         </div>
+        </foreignObject>
+       </g>
+      </g>
+      <g class="divider" style="">
+       <path d="M-191.640625 -60 C-88.05148041840108 -60, 15.537664163197832 -60, 191.640625 -60 M-191.640625 -60 C-45.304762670364454 -60, 101.03109965927109 -60, 191.640625 -60" stroke="#9370DB" stroke-width="1.3" fill="none" stroke-dasharray="0 0" style=""></path>
+      </g>
+      <g class="divider" style="">
+       <path d="M-191.640625 36 C-64.00537733117685 36, 63.62987033764631 36, 191.640625 36 M-191.640625 36 C-80.86621940468918 36, 29.90818619062165 36, 191.640625 36" stroke="#9370DB" stroke-width="1.3" fill="none" stroke-dasharray="0 0" style=""></path>
+      </g>
+     </g>
+    </g>
+   </g>
+  </g>
+ </svg>

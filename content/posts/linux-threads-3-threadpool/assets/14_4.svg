@@ -1,0 +1,498 @@
+<svg id="mermaid-svg-Oe4XJzcxsAv6Ypv9" width="100%" xmlns="http://www.w3.org/2000/svg" class="classDiagram" style="max-width: 1019.7373046875px;" viewBox="0 0 1019.7373046875 956">
+  <style>#mermaid-svg-Oe4XJzcxsAv6Ypv9{font-family:"trebuchet ms",verdana,arial,sans-serif;font-size:16px;fill:#333;}@keyframes edge-animation-frame{from{stroke-dashoffset:0;}}@keyframes dash{to{stroke-dashoffset:0;}}#mermaid-svg-Oe4XJzcxsAv6Ypv9 .edge-animation-slow{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 50s linear infinite;stroke-linecap:round;}#mermaid-svg-Oe4XJzcxsAv6Ypv9 .edge-animation-fast{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 20s linear infinite;stroke-linecap:round;}#mermaid-svg-Oe4XJzcxsAv6Ypv9 .error-icon{fill:#552222;}#mermaid-svg-Oe4XJzcxsAv6Ypv9 .error-text{fill:#552222;stroke:#552222;}#mermaid-svg-Oe4XJzcxsAv6Ypv9 .edge-thickness-normal{stroke-width:1px;}#mermaid-svg-Oe4XJzcxsAv6Ypv9 .edge-thickness-thick{stroke-width:3.5px;}#mermaid-svg-Oe4XJzcxsAv6Ypv9 .edge-pattern-solid{stroke-dasharray:0;}#mermaid-svg-Oe4XJzcxsAv6Ypv9 .edge-thickness-invisible{stroke-width:0;fill:none;}#mermaid-svg-Oe4XJzcxsAv6Ypv9 .edge-pattern-dashed{stroke-dasharray:3;}#mermaid-svg-Oe4XJzcxsAv6Ypv9 .edge-pattern-dotted{stroke-dasharray:2;}#mermaid-svg-Oe4XJzcxsAv6Ypv9 .marker{fill:#333333;stroke:#333333;}#mermaid-svg-Oe4XJzcxsAv6Ypv9 .marker.cross{stroke:#333333;}#mermaid-svg-Oe4XJzcxsAv6Ypv9 svg{font-family:"trebuchet ms",verdana,arial,sans-serif;font-size:16px;}#mermaid-svg-Oe4XJzcxsAv6Ypv9 p{margin:0;}#mermaid-svg-Oe4XJzcxsAv6Ypv9 g.classGroup text{fill:#9370DB;stroke:none;font-family:"trebuchet ms",verdana,arial,sans-serif;font-size:10px;}#mermaid-svg-Oe4XJzcxsAv6Ypv9 g.classGroup text .title{font-weight:bolder;}#mermaid-svg-Oe4XJzcxsAv6Ypv9 .cluster-label text{fill:#333;}#mermaid-svg-Oe4XJzcxsAv6Ypv9 .cluster-label span{color:#333;}#mermaid-svg-Oe4XJzcxsAv6Ypv9 .cluster-label span p{background-color:transparent;}#mermaid-svg-Oe4XJzcxsAv6Ypv9 .cluster rect{fill:#ffffde;stroke:#aaaa33;stroke-width:1px;}#mermaid-svg-Oe4XJzcxsAv6Ypv9 .cluster text{fill:#333;}#mermaid-svg-Oe4XJzcxsAv6Ypv9 .cluster span{color:#333;}#mermaid-svg-Oe4XJzcxsAv6Ypv9 .nodeLabel,#mermaid-svg-Oe4XJzcxsAv6Ypv9 .edgeLabel{color:#131300;}#mermaid-svg-Oe4XJzcxsAv6Ypv9 .edgeLabel .label rect{fill:#ECECFF;}#mermaid-svg-Oe4XJzcxsAv6Ypv9 .label text{fill:#131300;}#mermaid-svg-Oe4XJzcxsAv6Ypv9 .labelBkg{background:#ECECFF;}#mermaid-svg-Oe4XJzcxsAv6Ypv9 .edgeLabel .label span{background:#ECECFF;}#mermaid-svg-Oe4XJzcxsAv6Ypv9 .classTitle{font-weight:bolder;}#mermaid-svg-Oe4XJzcxsAv6Ypv9 .node rect,#mermaid-svg-Oe4XJzcxsAv6Ypv9 .node circle,#mermaid-svg-Oe4XJzcxsAv6Ypv9 .node ellipse,#mermaid-svg-Oe4XJzcxsAv6Ypv9 .node polygon,#mermaid-svg-Oe4XJzcxsAv6Ypv9 .node path{fill:#ECECFF;stroke:#9370DB;stroke-width:1px;}#mermaid-svg-Oe4XJzcxsAv6Ypv9 .divider{stroke:#9370DB;stroke-width:1;}#mermaid-svg-Oe4XJzcxsAv6Ypv9 g.clickable{cursor:pointer;}#mermaid-svg-Oe4XJzcxsAv6Ypv9 g.classGroup rect{fill:#ECECFF;stroke:#9370DB;}#mermaid-svg-Oe4XJzcxsAv6Ypv9 g.classGroup line{stroke:#9370DB;stroke-width:1;}#mermaid-svg-Oe4XJzcxsAv6Ypv9 .classLabel .box{stroke:none;stroke-width:0;fill:#ECECFF;opacity:0.5;}#mermaid-svg-Oe4XJzcxsAv6Ypv9 .classLabel .label{fill:#9370DB;font-size:10px;}#mermaid-svg-Oe4XJzcxsAv6Ypv9 .relation{stroke:#333333;stroke-width:1;fill:none;}#mermaid-svg-Oe4XJzcxsAv6Ypv9 .dashed-line{stroke-dasharray:3;}#mermaid-svg-Oe4XJzcxsAv6Ypv9 .dotted-line{stroke-dasharray:1 2;}#mermaid-svg-Oe4XJzcxsAv6Ypv9 #compositionStart,#mermaid-svg-Oe4XJzcxsAv6Ypv9 .composition{fill:#333333!important;stroke:#333333!important;stroke-width:1;}#mermaid-svg-Oe4XJzcxsAv6Ypv9 #compositionEnd,#mermaid-svg-Oe4XJzcxsAv6Ypv9 .composition{fill:#333333!important;stroke:#333333!important;stroke-width:1;}#mermaid-svg-Oe4XJzcxsAv6Ypv9 #dependencyStart,#mermaid-svg-Oe4XJzcxsAv6Ypv9 .dependency{fill:#333333!important;stroke:#333333!important;stroke-width:1;}#mermaid-svg-Oe4XJzcxsAv6Ypv9 #dependencyStart,#mermaid-svg-Oe4XJzcxsAv6Ypv9 .dependency{fill:#333333!important;stroke:#333333!important;stroke-width:1;}#mermaid-svg-Oe4XJzcxsAv6Ypv9 #extensionStart,#mermaid-svg-Oe4XJzcxsAv6Ypv9 .extension{fill:transparent!important;stroke:#333333!important;stroke-width:1;}#mermaid-svg-Oe4XJzcxsAv6Ypv9 #extensionEnd,#mermaid-svg-Oe4XJzcxsAv6Ypv9 .extension{fill:transparent!important;stroke:#333333!important;stroke-width:1;}#mermaid-svg-Oe4XJzcxsAv6Ypv9 #aggregationStart,#mermaid-svg-Oe4XJzcxsAv6Ypv9 .aggregation{fill:transparent!important;stroke:#333333!important;stroke-width:1;}#mermaid-svg-Oe4XJzcxsAv6Ypv9 #aggregationEnd,#mermaid-svg-Oe4XJzcxsAv6Ypv9 .aggregation{fill:transparent!important;stroke:#333333!important;stroke-width:1;}#mermaid-svg-Oe4XJzcxsAv6Ypv9 #lollipopStart,#mermaid-svg-Oe4XJzcxsAv6Ypv9 .lollipop{fill:#ECECFF!important;stroke:#333333!important;stroke-width:1;}#mermaid-svg-Oe4XJzcxsAv6Ypv9 #lollipopEnd,#mermaid-svg-Oe4XJzcxsAv6Ypv9 .lollipop{fill:#ECECFF!important;stroke:#333333!important;stroke-width:1;}#mermaid-svg-Oe4XJzcxsAv6Ypv9 .edgeTerminals{font-size:11px;line-height:initial;}#mermaid-svg-Oe4XJzcxsAv6Ypv9 .classTitleText{text-anchor:middle;font-size:18px;fill:#333;}#mermaid-svg-Oe4XJzcxsAv6Ypv9 .label-icon{display:inline-block;height:1em;overflow:visible;vertical-align:-0.125em;}#mermaid-svg-Oe4XJzcxsAv6Ypv9 .node .label-icon path{fill:currentColor;stroke:revert;stroke-width:revert;}#mermaid-svg-Oe4XJzcxsAv6Ypv9 :root{--mermaid-font-family:"trebuchet ms",verdana,arial,sans-serif;}</style>
+  <g>
+   <defs>
+    <marker id="mermaid-svg-Oe4XJzcxsAv6Ypv9_class-aggregationStart" class="marker aggregation class" refX="18" refY="7" markerWidth="190" markerHeight="240" orient="auto">
+     <path d="M 18,7 L9,13 L1,7 L9,1 Z"></path>
+    </marker>
+   </defs>
+   <defs>
+    <marker id="mermaid-svg-Oe4XJzcxsAv6Ypv9_class-aggregationEnd" class="marker aggregation class" refX="1" refY="7" markerWidth="20" markerHeight="28" orient="auto">
+     <path d="M 18,7 L9,13 L1,7 L9,1 Z"></path>
+    </marker>
+   </defs>
+   <defs>
+    <marker id="mermaid-svg-Oe4XJzcxsAv6Ypv9_class-extensionStart" class="marker extension class" refX="18" refY="7" markerWidth="190" markerHeight="240" orient="auto">
+     <path d="M 1,7 L18,13 V 1 Z"></path>
+    </marker>
+   </defs>
+   <defs>
+    <marker id="mermaid-svg-Oe4XJzcxsAv6Ypv9_class-extensionEnd" class="marker extension class" refX="1" refY="7" markerWidth="20" markerHeight="28" orient="auto">
+     <path d="M 1,1 V 13 L18,7 Z"></path>
+    </marker>
+   </defs>
+   <defs>
+    <marker id="mermaid-svg-Oe4XJzcxsAv6Ypv9_class-compositionStart" class="marker composition class" refX="18" refY="7" markerWidth="190" markerHeight="240" orient="auto">
+     <path d="M 18,7 L9,13 L1,7 L9,1 Z"></path>
+    </marker>
+   </defs>
+   <defs>
+    <marker id="mermaid-svg-Oe4XJzcxsAv6Ypv9_class-compositionEnd" class="marker composition class" refX="1" refY="7" markerWidth="20" markerHeight="28" orient="auto">
+     <path d="M 18,7 L9,13 L1,7 L9,1 Z"></path>
+    </marker>
+   </defs>
+   <defs>
+    <marker id="mermaid-svg-Oe4XJzcxsAv6Ypv9_class-dependencyStart" class="marker dependency class" refX="6" refY="7" markerWidth="190" markerHeight="240" orient="auto">
+     <path d="M 5,7 L9,13 L1,7 L9,1 Z"></path>
+    </marker>
+   </defs>
+   <defs>
+    <marker id="mermaid-svg-Oe4XJzcxsAv6Ypv9_class-dependencyEnd" class="marker dependency class" refX="13" refY="7" markerWidth="20" markerHeight="28" orient="auto">
+     <path d="M 18,7 L9,13 L14,7 L9,1 Z"></path>
+    </marker>
+   </defs>
+   <defs>
+    <marker id="mermaid-svg-Oe4XJzcxsAv6Ypv9_class-lollipopStart" class="marker lollipop class" refX="13" refY="7" markerWidth="190" markerHeight="240" orient="auto">
+     <circle fill="transparent" cx="7" cy="7" r="6"></circle>
+    </marker>
+   </defs>
+   <defs>
+    <marker id="mermaid-svg-Oe4XJzcxsAv6Ypv9_class-lollipopEnd" class="marker lollipop class" refX="1" refY="7" markerWidth="190" markerHeight="240" orient="auto">
+     <circle fill="transparent" cx="7" cy="7" r="6"></circle>
+    </marker>
+   </defs>
+   <g class="root">
+    <g class="clusters"></g>
+    <g class="edgePaths">
+     <path d="M243.843,562.687L227.213,580.739C210.583,598.791,177.323,634.896,160.693,667.115C144.063,699.333,144.063,727.667,144.063,741.833L144.063,756" id="id_LogStrategy_ConsoleStrategy_1" class="edge-thickness-normal edge-pattern-solid relation" style=";;;" marker-start="url(#mermaid-svg-Oe4XJzcxsAv6Ypv9_class-extensionStart)"></path>
+     <path d="M421.985,562.687L438.615,580.739C455.245,598.791,488.505,634.896,505.135,661.115C521.766,687.333,521.766,703.667,521.766,711.833L521.766,720" id="id_LogStrategy_FileStrategy_2" class="edge-thickness-normal edge-pattern-solid relation" style=";;;" marker-start="url(#mermaid-svg-Oe4XJzcxsAv6Ypv9_class-extensionStart)"></path>
+     <path d="M514.798,189.066L484.484,201.055C454.17,213.044,393.542,237.022,363.228,269.178C332.914,301.333,332.914,341.667,332.914,361.833L332.914,382" id="id_Logger_LogStrategy_3" class="edge-thickness-normal edge-pattern-solid relation" style=";;;" marker-start="url(#mermaid-svg-Oe4XJzcxsAv6Ypv9_class-compositionStart)"></path>
+     <path d="M699.544,224L699.544,230.167C699.544,236.333,699.544,248.667,703.359,260.186C707.174,271.705,714.804,282.409,718.62,287.762L722.435,293.114" id="id_Logger_LogMessage_4" class="edge-thickness-normal edge-pattern-solid relation" style=";;;" marker-end="url(#mermaid-svg-Oe4XJzcxsAv6Ypv9_class-dependencyEnd)"></path>
+     <path d="M866.974,298L867.756,291.833C868.539,285.667,870.103,273.333,864.329,261.644C858.556,249.955,845.445,238.91,838.89,233.388L832.335,227.866" id="id_LogMessage_Logger_5" class="edge-thickness-normal edge-pattern-solid relation" style=";;;" marker-end="url(#mermaid-svg-Oe4XJzcxsAv6Ypv9_class-dependencyEnd)"></path>
+     <path d="M845.667,634L845.667,640.167C845.667,646.333,845.667,658.667,845.667,670C845.667,681.333,845.667,691.667,845.667,696.833L845.667,702" id="id_LogMessage_LogLevel_6" class="edge-thickness-normal edge-pattern-solid relation" style=";;;" marker-end="url(#mermaid-svg-Oe4XJzcxsAv6Ypv9_class-dependencyEnd)"></path>
+    </g>
+    <g class="edgeLabels">
+     <g class="edgeLabel">
+      <g class="label" transform="translate(0, 0)">
+       <foreignObject width="0" height="0">
+        <div class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;" xmlns="http://www.w3.org/1999/xhtml">
+         <span class="edgeLabel"></span>
+        </div>
+       </foreignObject>
+      </g>
+     </g>
+     <g class="edgeLabel">
+      <g class="label" transform="translate(0, 0)">
+       <foreignObject width="0" height="0">
+        <div class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;" xmlns="http://www.w3.org/1999/xhtml">
+         <span class="edgeLabel"></span>
+        </div>
+       </foreignObject>
+      </g>
+     </g>
+     <g class="edgeLabel" transform="translate(332.9140625, 261)">
+      <g class="label" transform="translate(-16, -12)">
+       <foreignObject width="32" height="24">
+        <div class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;" xmlns="http://www.w3.org/1999/xhtml">
+         <span class="edgeLabel"><p>聚合</p></span>
+        </div>
+       </foreignObject>
+      </g>
+     </g>
+     <g class="edgeLabel" transform="translate(699.5439453125, 261)">
+      <g class="label" transform="translate(-16, -12)">
+       <foreignObject width="32" height="24">
+        <div class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;" xmlns="http://www.w3.org/1999/xhtml">
+         <span class="edgeLabel"><p>创建</p></span>
+        </div>
+       </foreignObject>
+      </g>
+     </g>
+     <g class="edgeLabel" transform="translate(863.96847, 254.5146)">
+      <g class="label" transform="translate(-16, -12)">
+       <foreignObject width="32" height="24">
+        <div class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;" xmlns="http://www.w3.org/1999/xhtml">
+         <span class="edgeLabel"><p>关联</p></span>
+        </div>
+       </foreignObject>
+      </g>
+     </g>
+     <g class="edgeLabel" transform="translate(845.6669921875, 671)">
+      <g class="label" transform="translate(-16, -12)">
+       <foreignObject width="32" height="24">
+        <div class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;" xmlns="http://www.w3.org/1999/xhtml">
+         <span class="edgeLabel"><p>使用</p></span>
+        </div>
+       </foreignObject>
+      </g>
+     </g>
+    </g>
+    <g class="nodes">
+     <g class="node default" id="classId-LogLevel-21" transform="translate(845.6669921875, 828)">
+      <g class="basic label-container">
+       <path d="M-61.916015625 -120 L61.916015625 -120 L61.916015625 120 L-61.916015625 120" stroke="none" stroke-width="0" fill="#ECECFF" style=""></path>
+       <path d="M-61.916015625 -120 C-30.749799861885613 -120, 0.41641590122877403 -120, 61.916015625 -120 M-61.916015625 -120 C-16.85477541932127 -120, 28.206464786357458 -120, 61.916015625 -120 M61.916015625 -120 C61.916015625 -56.1121289952564, 61.916015625 7.775742009487203, 61.916015625 120 M61.916015625 -120 C61.916015625 -50.62578844138805, 61.916015625 18.748423117223894, 61.916015625 120 M61.916015625 120 C33.944741088803966 120, 5.973466552607938 120, -61.916015625 120 M61.916015625 120 C17.474757878588022 120, -26.966499867823956 120, -61.916015625 120 M-61.916015625 120 C-61.916015625 48.58734284745026, -61.916015625 -22.825314305099482, -61.916015625 -120 M-61.916015625 120 C-61.916015625 33.551209494916904, -61.916015625 -52.89758101016619, -61.916015625 -120" stroke="#9370DB" stroke-width="1.3" fill="none" stroke-dasharray="0 0" style=""></path>
+      </g>
+      <g class="annotation-group text" transform="translate(-28.13671875, -96)">
+       <g class="label" style="" transform="translate(0,-12)">
+        <foreignObject width="56.2734375" height="24">
+         <div style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 108px; text-align: center;" xmlns="http://www.w3.org/1999/xhtml">
+          <span class="nodeLabel markdown-node-label" style=""><p>«enum»</p></span>
+         </div>
+        </foreignObject>
+       </g>
+      </g>
+      <g class="label-group text" transform="translate(-33.16015625, -72)">
+       <g class="label" style="font-weight: bolder" transform="translate(0,-12)">
+        <foreignObject width="66.3203125" height="24">
+         <div style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 116px; text-align: center;" xmlns="http://www.w3.org/1999/xhtml">
+          <span class="nodeLabel markdown-node-label" style=""><p>LogLevel</p></span>
+         </div>
+        </foreignObject>
+       </g>
+      </g>
+      <g class="members-group text" transform="translate(-49.916015625, -24)">
+       <g class="label" style="" transform="translate(0,-12)">
+        <foreignObject width="33.84375" height="24">
+         <div style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 88px; text-align: center;" xmlns="http://www.w3.org/1999/xhtml">
+          <span class="nodeLabel markdown-node-label" style=""><p>INFO</p></span>
+         </div>
+        </foreignObject>
+       </g>
+       <g class="label" style="" transform="translate(0,12)">
+        <foreignObject width="66.671875" height="24">
+         <div style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 127px; text-align: center;" xmlns="http://www.w3.org/1999/xhtml">
+          <span class="nodeLabel markdown-node-label" style=""><p>WARNING</p></span>
+         </div>
+        </foreignObject>
+       </g>
+       <g class="label" style="" transform="translate(0,36)">
+        <foreignObject width="48.1875" height="24">
+         <div style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 108px; text-align: center;" xmlns="http://www.w3.org/1999/xhtml">
+          <span class="nodeLabel markdown-node-label" style=""><p>ERRNO</p></span>
+         </div>
+        </foreignObject>
+       </g>
+       <g class="label" style="" transform="translate(0,60)">
+        <foreignObject width="39.859375" height="24">
+         <div style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 97px; text-align: center;" xmlns="http://www.w3.org/1999/xhtml">
+          <span class="nodeLabel markdown-node-label" style=""><p>FATAL</p></span>
+         </div>
+        </foreignObject>
+       </g>
+       <g class="label" style="" transform="translate(0,84)">
+        <foreignObject width="48.6328125" height="24">
+         <div style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 107px; text-align: center;" xmlns="http://www.w3.org/1999/xhtml">
+          <span class="nodeLabel markdown-node-label" style=""><p>DEBUG</p></span>
+         </div>
+        </foreignObject>
+       </g>
+      </g>
+      <g class="methods-group text" transform="translate(-49.916015625, 120)"></g>
+      <g class="divider" style="">
+       <path d="M-61.916015625 -48 C-13.72160285126283 -48, 34.47280992247434 -48, 61.916015625 -48 M-61.916015625 -48 C-25.22462988125738 -48, 11.466755862485243 -48, 61.916015625 -48" stroke="#9370DB" stroke-width="1.3" fill="none" stroke-dasharray="0 0" style=""></path>
+      </g>
+      <g class="divider" style="">
+       <path d="M-61.916015625 96 C-36.565838349610786 96, -11.215661074221572 96, 61.916015625 96 M-61.916015625 96 C-16.19339675395169 96, 29.529222117096623 96, 61.916015625 96" stroke="#9370DB" stroke-width="1.3" fill="none" stroke-dasharray="0 0" style=""></path>
+      </g>
+     </g>
+     <g class="node default" id="classId-LogStrategy-22" transform="translate(332.9140625, 466)">
+      <g class="basic label-container">
+       <path d="M-128.17578125 -84 L128.17578125 -84 L128.17578125 84 L-128.17578125 84" stroke="none" stroke-width="0" fill="#ECECFF" style=""></path>
+       <path d="M-128.17578125 -84 C-65.19645336903119 -84, -2.217125488062365 -84, 128.17578125 -84 M-128.17578125 -84 C-74.023190142656 -84, -19.870599035311997 -84, 128.17578125 -84 M128.17578125 -84 C128.17578125 -43.94502568930225, 128.17578125 -3.890051378604497, 128.17578125 84 M128.17578125 -84 C128.17578125 -20.279206818063393, 128.17578125 43.44158636387321, 128.17578125 84 M128.17578125 84 C33.55877082216543 84, -61.058239605669144 84, -128.17578125 84 M128.17578125 84 C36.13423763881673 84, -55.907305972366544 84, -128.17578125 84 M-128.17578125 84 C-128.17578125 41.30832476633417, -128.17578125 -1.3833504673316668, -128.17578125 -84 M-128.17578125 84 C-128.17578125 37.69290947573158, -128.17578125 -8.614181048536835, -128.17578125 -84" stroke="#9370DB" stroke-width="1.3" fill="none" stroke-dasharray="0 0" style=""></path>
+      </g>
+      <g class="annotation-group text" transform="translate(-37.90625, -60)">
+       <g class="label" style="" transform="translate(0,-12)">
+        <foreignObject width="75.8125" height="24">
+         <div style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 126px; text-align: center;" xmlns="http://www.w3.org/1999/xhtml">
+          <span class="nodeLabel markdown-node-label" style=""><p>«abstract»</p></span>
+         </div>
+        </foreignObject>
+       </g>
+      </g>
+      <g class="label-group text" transform="translate(-43.7109375, -36)">
+       <g class="label" style="font-weight: bolder" transform="translate(0,-12)">
+        <foreignObject width="87.421875" height="24">
+         <div style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 139px; text-align: center;" xmlns="http://www.w3.org/1999/xhtml">
+          <span class="nodeLabel markdown-node-label" style=""><p>LogStrategy</p></span>
+         </div>
+        </foreignObject>
+       </g>
+      </g>
+      <g class="members-group text" transform="translate(-116.17578125, 12)">
+       <g class="label" style="" transform="translate(0,-12)">
+        <foreignObject width="101.5" height="24">
+         <div style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 161px; text-align: center;" xmlns="http://www.w3.org/1999/xhtml">
+          <span class="nodeLabel markdown-node-label" style=""><p>#Mutex mutex</p></span>
+         </div>
+        </foreignObject>
+       </g>
+      </g>
+      <g class="methods-group text" transform="translate(-116.17578125, 60)">
+       <g class="label" style="font-style:italic;" transform="translate(0,-12)">
+        <foreignObject width="188.640625" height="24">
+         <div style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 255px; text-align: center;" xmlns="http://www.w3.org/1999/xhtml">
+          <span class="nodeLabel markdown-node-label" style=""><p>+SyncLog(message: string)</p></span>
+         </div>
+        </foreignObject>
+       </g>
+      </g>
+      <g class="divider" style="">
+       <path d="M-128.17578125 -12 C-60.072125503290096 -12, 8.031530243419809 -12, 128.17578125 -12 M-128.17578125 -12 C-28.620264778184932 -12, 70.93525169363014 -12, 128.17578125 -12" stroke="#9370DB" stroke-width="1.3" fill="none" stroke-dasharray="0 0" style=""></path>
+      </g>
+      <g class="divider" style="">
+       <path d="M-128.17578125 36 C-65.76501723517791 36, -3.354253220355801 36, 128.17578125 36 M-128.17578125 36 C-62.7513696448671 36, 2.673041960265806 36, 128.17578125 36" stroke="#9370DB" stroke-width="1.3" fill="none" stroke-dasharray="0 0" style=""></path>
+      </g>
+     </g>
+     <g class="node default" id="classId-ConsoleStrategy-23" transform="translate(144.0625, 828)">
+      <g class="basic label-container">
+       <path d="M-136.0625 -72 L136.0625 -72 L136.0625 72 L-136.0625 72" stroke="none" stroke-width="0" fill="#ECECFF" style=""></path>
+       <path d="M-136.0625 -72 C-71.8120662820945 -72, -7.561632564189011 -72, 136.0625 -72 M-136.0625 -72 C-39.56604685885482 -72, 56.93040628229036 -72, 136.0625 -72 M136.0625 -72 C136.0625 -24.790693261544583, 136.0625 22.418613476910835, 136.0625 72 M136.0625 -72 C136.0625 -41.016427072252306, 136.0625 -10.032854144504611, 136.0625 72 M136.0625 72 C39.982981686375865 72, -56.09653662724827 72, -136.0625 72 M136.0625 72 C32.92771269982157 72, -70.20707460035686 72, -136.0625 72 M-136.0625 72 C-136.0625 16.03755135427567, -136.0625 -39.92489729144866, -136.0625 -72 M-136.0625 72 C-136.0625 16.37089289813644, -136.0625 -39.25821420372712, -136.0625 -72" stroke="#9370DB" stroke-width="1.3" fill="none" stroke-dasharray="0 0" style=""></path>
+      </g>
+      <g class="annotation-group text" transform="translate(0, -48)"></g>
+      <g class="label-group text" transform="translate(-59.8203125, -48)">
+       <g class="label" style="font-weight: bolder" transform="translate(0,-12)">
+        <foreignObject width="119.640625" height="24">
+         <div style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 172px; text-align: center;" xmlns="http://www.w3.org/1999/xhtml">
+          <span class="nodeLabel markdown-node-label" style=""><p>ConsoleStrategy</p></span>
+         </div>
+        </foreignObject>
+       </g>
+      </g>
+      <g class="members-group text" transform="translate(-124.0625, 0)">
+       <g class="label" style="" transform="translate(0,-12)">
+        <foreignObject width="98.984375" height="24">
+         <div style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 157px; text-align: center;" xmlns="http://www.w3.org/1999/xhtml">
+          <span class="nodeLabel markdown-node-label" style=""><p>-Mutex mutex</p></span>
+         </div>
+        </foreignObject>
+       </g>
+      </g>
+      <g class="methods-group text" transform="translate(-124.0625, 48)">
+       <g class="label" style="" transform="translate(0,-12)">
+        <foreignObject width="188.3046875" height="24">
+         <div style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 255px; text-align: center;" xmlns="http://www.w3.org/1999/xhtml">
+          <span class="nodeLabel markdown-node-label" style=""><p>+SyncLog(message: string)</p></span>
+         </div>
+        </foreignObject>
+       </g>
+      </g>
+      <g class="divider" style="">
+       <path d="M-136.0625 -24 C-77.46699981780934 -24, -18.871499635618676 -24, 136.0625 -24 M-136.0625 -24 C-42.33838598210984 -24, 51.38572803578032 -24, 136.0625 -24" stroke="#9370DB" stroke-width="1.3" fill="none" stroke-dasharray="0 0" style=""></path>
+      </g>
+      <g class="divider" style="">
+       <path d="M-136.0625 24 C-79.35527182976533 24, -22.648043659530657 24, 136.0625 24 M-136.0625 24 C-57.307838028698825 24, 21.44682394260235 24, 136.0625 24" stroke="#9370DB" stroke-width="1.3" fill="none" stroke-dasharray="0 0" style=""></path>
+      </g>
+     </g>
+     <g class="node default" id="classId-FileStrategy-24" transform="translate(521.765625, 828)">
+      <g class="basic label-container">
+       <path d="M-191.640625 -108 L191.640625 -108 L191.640625 108 L-191.640625 108" stroke="none" stroke-width="0" fill="#ECECFF" style=""></path>
+       <path d="M-191.640625 -108 C-96.38843756426624 -108, -1.136250128532481 -108, 191.640625 -108 M-191.640625 -108 C-42.59082235440036 -108, 106.45898029119928 -108, 191.640625 -108 M191.640625 -108 C191.640625 -60.52740745060043, 191.640625 -13.054814901200857, 191.640625 108 M191.640625 -108 C191.640625 -54.81507407532118, 191.640625 -1.6301481506423556, 191.640625 108 M191.640625 108 C72.13900470286755 108, -47.362615594264895 108, -191.640625 108 M191.640625 108 C48.4431339426925 108, -94.754357114615 108, -191.640625 108 M-191.640625 108 C-191.640625 50.11482619862198, -191.640625 -7.770347602756047, -191.640625 -108 M-191.640625 108 C-191.640625 42.210614990933124, -191.640625 -23.578770018133753, -191.640625 -108" stroke="#9370DB" stroke-width="1.3" fill="none" stroke-dasharray="0 0" style=""></path>
+      </g>
+      <g class="annotation-group text" transform="translate(0, -84)"></g>
+      <g class="label-group text" transform="translate(-44.7578125, -84)">
+       <g class="label" style="font-weight: bolder" transform="translate(0,-12)">
+        <foreignObject width="89.515625" height="24">
+         <div style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 138px; text-align: center;" xmlns="http://www.w3.org/1999/xhtml">
+          <span class="nodeLabel markdown-node-label" style=""><p>FileStrategy</p></span>
+         </div>
+        </foreignObject>
+       </g>
+      </g>
+      <g class="members-group text" transform="translate(-179.640625, -36)">
+       <g class="label" style="" transform="translate(0,-12)">
+        <foreignObject width="91.8671875" height="24">
+         <div style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 151px; text-align: center;" xmlns="http://www.w3.org/1999/xhtml">
+          <span class="nodeLabel markdown-node-label" style=""><p>-string _path</p></span>
+         </div>
+        </foreignObject>
+       </g>
+       <g class="label" style="" transform="translate(0,12)">
+        <foreignObject width="122.5390625" height="24">
+         <div style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 182px; text-align: center;" xmlns="http://www.w3.org/1999/xhtml">
+          <span class="nodeLabel markdown-node-label" style=""><p>-string _filename</p></span>
+         </div>
+        </foreignObject>
+       </g>
+       <g class="label" style="" transform="translate(0,36)">
+        <foreignObject width="98.984375" height="24">
+         <div style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 157px; text-align: center;" xmlns="http://www.w3.org/1999/xhtml">
+          <span class="nodeLabel markdown-node-label" style=""><p>-Mutex mutex</p></span>
+         </div>
+        </foreignObject>
+       </g>
+      </g>
+      <g class="methods-group text" transform="translate(-179.640625, 60)">
+       <g class="label" style="" transform="translate(0,-12)">
+        <foreignObject width="314.5234375" height="24">
+         <div style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 373px; text-align: center;" xmlns="http://www.w3.org/1999/xhtml">
+          <span class="nodeLabel markdown-node-label" style=""><p>+FileStrategy(path: string, filename: string)</p></span>
+         </div>
+        </foreignObject>
+       </g>
+       <g class="label" style="" transform="translate(0,12)">
+        <foreignObject width="188.3046875" height="24">
+         <div style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 255px; text-align: center;" xmlns="http://www.w3.org/1999/xhtml">
+          <span class="nodeLabel markdown-node-label" style=""><p>+SyncLog(message: string)</p></span>
+         </div>
+        </foreignObject>
+       </g>
+      </g>
+      <g class="divider" style="">
+       <path d="M-191.640625 -60 C-58.30521148486466 -60, 75.03020203027069 -60, 191.640625 -60 M-191.640625 -60 C-52.72062595083881 -60, 86.19937309832238 -60, 191.640625 -60" stroke="#9370DB" stroke-width="1.3" fill="none" stroke-dasharray="0 0" style=""></path>
+      </g>
+      <g class="divider" style="">
+       <path d="M-191.640625 36 C-109.43233510494336 36, -27.224045209886725 36, 191.640625 36 M-191.640625 36 C-57.45102921385998 36, 76.73856657228004 36, 191.640625 36" stroke="#9370DB" stroke-width="1.3" fill="none" stroke-dasharray="0 0" style=""></path>
+      </g>
+     </g>
+     <g class="node default" id="classId-Logger-25" transform="translate(699.5439453125, 116)">
+      <g class="basic label-container">
+       <path d="M-168.705078125 -108 L168.705078125 -108 L168.705078125 108 L-168.705078125 108" stroke="none" stroke-width="0" fill="#ECECFF" style=""></path>
+       <path d="M-168.705078125 -108 C-57.12748911503729 -108, 54.450099894925415 -108, 168.705078125 -108 M-168.705078125 -108 C-46.18520315975192 -108, 76.33467180549616 -108, 168.705078125 -108 M168.705078125 -108 C168.705078125 -53.37169906262642, 168.705078125 1.2566018747471617, 168.705078125 108 M168.705078125 -108 C168.705078125 -49.46033974566197, 168.705078125 9.079320508676062, 168.705078125 108 M168.705078125 108 C97.13976546770856 108, 25.574452810417114 108, -168.705078125 108 M168.705078125 108 C80.58449812032306 108, -7.536081884353877 108, -168.705078125 108 M-168.705078125 108 C-168.705078125 63.05722939377613, -168.705078125 18.114458787552266, -168.705078125 -108 M-168.705078125 108 C-168.705078125 22.406025399253764, -168.705078125 -63.18794920149247, -168.705078125 -108" stroke="#9370DB" stroke-width="1.3" fill="none" stroke-dasharray="0 0" style=""></path>
+      </g>
+      <g class="annotation-group text" transform="translate(0, -84)"></g>
+      <g class="label-group text" transform="translate(-24.99609375, -84)">
+       <g class="label" style="font-weight: bolder" transform="translate(0,-12)">
+        <foreignObject width="49.9921875" height="24">
+         <div style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 101px; text-align: center;" xmlns="http://www.w3.org/1999/xhtml">
+          <span class="nodeLabel markdown-node-label" style=""><p>Logger</p></span>
+         </div>
+        </foreignObject>
+       </g>
+      </g>
+      <g class="members-group text" transform="translate(-156.705078125, -36)">
+       <g class="label" style="" transform="translate(0,-12)">
+        <foreignObject width="256.9765625" height="24">
+         <div style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 363px; text-align: center;" xmlns="http://www.w3.org/1999/xhtml">
+          <span class="nodeLabel markdown-node-label" style=""><p>-unique_ptr&lt;LogStrategy&gt; _strategy</p></span>
+         </div>
+        </foreignObject>
+       </g>
+      </g>
+      <g class="methods-group text" transform="translate(-156.705078125, 12)">
+       <g class="label" style="" transform="translate(0,-12)">
+        <foreignObject width="67.8359375" height="24">
+         <div style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 127px; text-align: center;" xmlns="http://www.w3.org/1999/xhtml">
+          <span class="nodeLabel markdown-node-label" style=""><p>+Logger()</p></span>
+         </div>
+        </foreignObject>
+       </g>
+       <g class="label" style="" transform="translate(0,12)">
+        <foreignObject width="160.78125" height="24">
+         <div style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 225px; text-align: center;" xmlns="http://www.w3.org/1999/xhtml">
+          <span class="nodeLabel markdown-node-label" style=""><p>+UseConsoleStrategy()</p></span>
+         </div>
+        </foreignObject>
+       </g>
+       <g class="label" style="" transform="translate(0,36)">
+        <foreignObject width="131.78125" height="24">
+         <div style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 192px; text-align: center;" xmlns="http://www.w3.org/1999/xhtml">
+          <span class="nodeLabel markdown-node-label" style=""><p>+UseFileStrategy()</p></span>
+         </div>
+        </foreignObject>
+       </g>
+       <g class="label" style="" transform="translate(0,60)">
+        <foreignObject width="288.4140625" height="24">
+         <div style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 347px; text-align: center;" xmlns="http://www.w3.org/1999/xhtml">
+          <span class="nodeLabel markdown-node-label" style=""><p>+LogMessage operator()(level, file, line)</p></span>
+         </div>
+        </foreignObject>
+       </g>
+      </g>
+      <g class="divider" style="">
+       <path d="M-168.705078125 -60 C-46.84195444737361 -60, 75.02116923025278 -60, 168.705078125 -60 M-168.705078125 -60 C-98.22452389895275 -60, -27.743969672905507 -60, 168.705078125 -60" stroke="#9370DB" stroke-width="1.3" fill="none" stroke-dasharray="0 0" style=""></path>
+      </g>
+      <g class="divider" style="">
+       <path d="M-168.705078125 -12 C-37.69000771106039 -12, 93.32506270287922 -12, 168.705078125 -12 M-168.705078125 -12 C-100.34592463246844 -12, -31.986771139936877 -12, 168.705078125 -12" stroke="#9370DB" stroke-width="1.3" fill="none" stroke-dasharray="0 0" style=""></path>
+      </g>
+     </g>
+     <g class="node default" id="classId-LogMessage-26" transform="translate(845.6669921875, 466)">
+      <g class="basic label-container">
+       <path d="M-166.0703125 -168 L166.0703125 -168 L166.0703125 168 L-166.0703125 168" stroke="none" stroke-width="0" fill="#ECECFF" style=""></path>
+       <path d="M-166.0703125 -168 C-89.11741490863993 -168, -12.16451731727986 -168, 166.0703125 -168 M-166.0703125 -168 C-33.56796303795633 -168, 98.93438642408734 -168, 166.0703125 -168 M166.0703125 -168 C166.0703125 -33.63735364051442, 166.0703125 100.72529271897116, 166.0703125 168 M166.0703125 -168 C166.0703125 -85.30116202712688, 166.0703125 -2.6023240542537565, 166.0703125 168 M166.0703125 168 C59.104447141804954 168, -47.86141821639009 168, -166.0703125 168 M166.0703125 168 C66.00408117026895 168, -34.06215015946211 168, -166.0703125 168 M-166.0703125 168 C-166.0703125 85.84396572974698, -166.0703125 3.687931459493967, -166.0703125 -168 M-166.0703125 168 C-166.0703125 46.16300515893545, -166.0703125 -75.6739896821291, -166.0703125 -168" stroke="#9370DB" stroke-width="1.3" fill="none" stroke-dasharray="0 0" style=""></path>
+      </g>
+      <g class="annotation-group text" transform="translate(0, -144)"></g>
+      <g class="label-group text" transform="translate(-43.2890625, -144)">
+       <g class="label" style="font-weight: bolder" transform="translate(0,-12)">
+        <foreignObject width="86.578125" height="24">
+         <div style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 142px; text-align: center;" xmlns="http://www.w3.org/1999/xhtml">
+          <span class="nodeLabel markdown-node-label" style=""><p>LogMessage</p></span>
+         </div>
+        </foreignObject>
+       </g>
+      </g>
+      <g class="members-group text" transform="translate(-154.0703125, -96)">
+       <g class="label" style="" transform="translate(0,-12)">
+        <foreignObject width="115.2578125" height="24">
+         <div style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 175px; text-align: center;" xmlns="http://www.w3.org/1999/xhtml">
+          <span class="nodeLabel markdown-node-label" style=""><p>-string _curtime</p></span>
+         </div>
+        </foreignObject>
+       </g>
+       <g class="label" style="" transform="translate(0,12)">
+        <foreignObject width="116.640625" height="24">
+         <div style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 176px; text-align: center;" xmlns="http://www.w3.org/1999/xhtml">
+          <span class="nodeLabel markdown-node-label" style=""><p>-LogLevel _level</p></span>
+         </div>
+        </foreignObject>
+       </g>
+       <g class="label" style="" transform="translate(0,36)">
+        <foreignObject width="78.6015625" height="24">
+         <div style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 138px; text-align: center;" xmlns="http://www.w3.org/1999/xhtml">
+          <span class="nodeLabel markdown-node-label" style=""><p>-pid_t _pid</p></span>
+         </div>
+        </foreignObject>
+       </g>
+       <g class="label" style="" transform="translate(0,60)">
+        <foreignObject width="83.3828125" height="24">
+         <div style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 140px; text-align: center;" xmlns="http://www.w3.org/1999/xhtml">
+          <span class="nodeLabel markdown-node-label" style=""><p>-string _file</p></span>
+         </div>
+        </foreignObject>
+       </g>
+       <g class="label" style="" transform="translate(0,84)">
+        <foreignObject width="65.484375" height="24">
+         <div style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 122px; text-align: center;" xmlns="http://www.w3.org/1999/xhtml">
+          <span class="nodeLabel markdown-node-label" style=""><p>-int _line</p></span>
+         </div>
+        </foreignObject>
+       </g>
+       <g class="label" style="" transform="translate(0,108)">
+        <foreignObject width="122.390625" height="24">
+         <div style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 184px; text-align: center;" xmlns="http://www.w3.org/1999/xhtml">
+          <span class="nodeLabel markdown-node-label" style=""><p>-Logger&amp; _logger</p></span>
+         </div>
+        </foreignObject>
+       </g>
+       <g class="label" style="" transform="translate(0,132)">
+        <foreignObject width="108.6015625" height="24">
+         <div style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 169px; text-align: center;" xmlns="http://www.w3.org/1999/xhtml">
+          <span class="nodeLabel markdown-node-label" style=""><p>-string _loginfo</p></span>
+         </div>
+        </foreignObject>
+       </g>
+      </g>
+      <g class="methods-group text" transform="translate(-154.0703125, 96)">
+       <g class="label" style="" transform="translate(0,-12)">
+        <foreignObject width="264.8515625" height="24">
+         <div style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 323px; text-align: center;" xmlns="http://www.w3.org/1999/xhtml">
+          <span class="nodeLabel markdown-node-label" style=""><p>+LogMessage(level, file, line, logger)</p></span>
+         </div>
+        </foreignObject>
+       </g>
+       <g class="label" style="" transform="translate(0,12)">
+        <foreignObject width="261.859375" height="24">
+         <div style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 435px; text-align: center;" xmlns="http://www.w3.org/1999/xhtml">
+          <span class="nodeLabel markdown-node-label" style=""><p>+operator&lt;&lt;(T&amp; info) : LogMessage&amp;</p></span>
+         </div>
+        </foreignObject>
+       </g>
+       <g class="label" style="" transform="translate(0,36)">
+        <foreignObject width="103.0546875" height="24">
+         <div style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 167px; text-align: center;" xmlns="http://www.w3.org/1999/xhtml">
+          <span class="nodeLabel markdown-node-label" style=""><p>~LogMessage()</p></span>
+         </div>
+        </foreignObject>
+       </g>
+      </g>
+      <g class="divider" style="">
+       <path d="M-166.0703125 -120 C-39.59996199169119 -120, 86.87038851661762 -120, 166.0703125 -120 M-166.0703125 -120 C-34.44943953714801 -120, 97.17143342570398 -120, 166.0703125 -120" stroke="#9370DB" stroke-width="1.3" fill="none" stroke-dasharray="0 0" style=""></path>
+      </g>
+      <g class="divider" style="">
+       <path d="M-166.0703125 72 C-68.60886076394425 72, 28.8525909721115 72, 166.0703125 72 M-166.0703125 72 C-63.36128256959773 72, 39.34774736080453 72, 166.0703125 72" stroke="#9370DB" stroke-width="1.3" fill="none" stroke-dasharray="0 0" style=""></path>
+      </g>
+     </g>
+    </g>
+   </g>
+  </g>
+ </svg>

@@ -4,14 +4,15 @@ title = "Linux中O(1)进程调度相关数据结构"
 description = ""
 slug = ""
 authors = []
-tags = ["系统编程"]
+tags = ["调度器", "进程调度", "优先级", "O(1)调度"]
 series = ["Linux"]
-featuredImage = "cover.png"
+featuredImage = "assets/cover.png"
 toc = true
 +++
 
 # Linux中O(1)进程调度相关数据结构
 
+> 原创 于 2026-04-11 07:30:00 发布 · 公开 · 394 阅读 · 8 · 7 · 本内容遵循CC 4.0 BY-SA版权协议 版权声明：本文为博主原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接和本声明。 GEO检测 · 编辑
 > 文章链接：https://blog.csdn.net/2401_87889177/article/details/159997859
 
 
@@ -125,7 +126,7 @@ struct prio_array {
 
 queue[140]是一由140个链表组成的优先级队列。通过进程优先级（0~139）映射到这个数组中，有哈希表的思想。
 
-![queue140](queue140.png)
+![queue140](assets/queue140.png)
 
 下标从100到139是普通进程链表，即我们平时看见的进程，0~99是实时进程链表，用于实时操作系统，Linux不是一个存粹的分时操作系统或实时操作系统。实时操作系统在特殊场景下才会使用，所以我们看见的基本上都是普通进程。
 

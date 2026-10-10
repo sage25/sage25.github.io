@@ -1,37 +1,43 @@
 {{ define "title" }}
-  {{ title (i18n (lower .Title)) | default .Title }} · {{ .Site.Title }}
+{{ title (i18n (lower .Title)) | default .Title }} · {{ .Site.Title }}
 {{ end }}
 {{ define "content" }}
-  <section class="container list">
+<section class="container list">
+  <header>
+    <h1 class="title">
+      <a class="title-link" href="{{ .Permalink | safeURL }}">
+        {{ title (i18n (lower .Title)) | default .Title }}
+      </a>
+    </h1>
+  </header>
+  {{ .Content }}
+
+{{ range .Paginator.Pages }}
+{{ $page := . }}
+<article class="post-item" style="display:flex; gap:1.5rem; align-items:center; margin-bottom:2.5rem;">
+  {{ with $page.Params.featuredImage }}
+  {{ with $page.Resources.GetMatch . }}
+  <a href="{{ $page.RelPermalink }}" style="display:block; flex:0 0 300px; max-width:40%;">
+    <img src="{{ .RelPermalink }}" alt="{{ $page.Title }}"
+      style="width:100%; height:170px; object-fit:cover; object-position:center;
+             border-radius:8px; display:block;">
+  </a>
+  {{ end }}
+  {{ end }}
+  <div style="flex:1;">
     <header>
-      <h1 class="title">
-        <a class="title-link" href="{{ .Permalink | safeURL }}">
-          {{ title (i18n (lower .Title)) | default .Title }}
-        </a>
-      </h1>
-      </header>
-      {{ .Content }}
-      
-      {{ range .Paginator.Pages }}
-      {{ $page := . }}
-      <article class="post-item" style="margin-bottom: 2rem; overflow: auto;">
-        {{ with $page.Params.featuredImage }}
-        {{ with $page.Resources.GetMatch . }}
-        <a href="{{ $page.RelPermalink }}"
-          style="float:left; width:220px; max-width:40%; margin:0 1.5rem 1rem 0; display:block;">
-          <img src="{{ .RelPermalink }}" alt="{{ $page.Title }}"
-            style="width:100%; height:auto; border-radius:8px; display:block;">
-        </a>
-        {{ end }}
-        {{ end }}
-        <header>
-          <h2 style="margin-top:0;"><a href="{{ $page.RelPermalink }}">{{ $page.Title }}</a></h2>
-          <time>{{ $page.Date.Format "2006-01-02" }}</time>
-        </header>
-        <div class="summary">{{ $page.Summary | plainify | htmlUnescape | truncate 160 }}</div>
-      </article>
-      {{ end }}
-      
-      {{ partial "pagination.html" . }}
-      </section>
+      <h2 style="margin:0 0 .4rem;"><a href="{{ $page.RelPermalink }}">{{ $page.Title }}</a></h2>
+      <time style="color:#888; font-size: 1.5rem;">{{ $page.Date.Format "2006-01-02" }}</time>
+    </header>
+    <div class="summary"
+      style="margin-top:.6rem; display:-webkit-box; -webkit-line-clamp:2;
+             -webkit-box-orient:vertical; overflow:hidden;">
+      {{ $page.Summary | plainify | htmlUnescape | truncate 140 }}
+    </div>
+  </div>
+</article>
+{{ end }}
+
+  {{ partial "pagination.html" . }}
+</section>
 {{ end }}

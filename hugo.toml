@@ -28,10 +28,12 @@ theme = 'hugo-coder'
 [[menus.main]]
   name = "Tags"
   pageRef = "tags"
+  weight = 10 
 
 [[menus.main]]
   name = "Posts"
   pageRef = "posts"
+  weight = 5
 
 [taxonomies]
   tag = "tags"
