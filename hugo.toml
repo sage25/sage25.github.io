@@ -1,4 +1,4 @@
-baseURL = 'https://sage25.github.io'
+baseURL = 'https://vankare.github.io'
 locale = 'zh-cn'
 title = 'Sage Blog'
 theme = 'hugo-coder'
