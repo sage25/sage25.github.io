@@ -1,6 +1,6 @@
 baseURL = 'https://vankare.github.io'
 locale = 'zh-cn'
-title = 'Sage Blog'
+title = 'Vankare Blohg'
 theme = 'hugo-coder'
 
 [caches]
@@ -8,7 +8,7 @@ theme = 'hugo-coder'
     dir = ':cacheDir/images'
 
 [params]
-  author = "Sage"
+  author = "Vankare"
   info = "后端开发 / 分享学习历程"
   colorScheme = "auto"
   
