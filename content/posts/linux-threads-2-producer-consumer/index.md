@@ -5,21 +5,14 @@ description = ""
 slug = ""
 authors = []
 tags = ["生产者消费者", "互斥锁", "条件变量", "原子操作"]
-series = ["Linux"]
+series = ["Linux系统编程"]
 featuredImage = "assets/cover.png"
 toc = true
 +++
 
-# Linux多线程编程(二)：互斥锁与条件变量，手写生产者消费者模型
 
 > 原创 于 2026-05-25 20:35:33 发布 · 公开 · 408 阅读 · 13 · 17 · 本内容遵循CC 4.0 BY-SA版权协议 版权声明：本文为博主原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接和本声明。 GEO检测 · 编辑
 > 文章链接：https://blog.csdn.net/2401_87889177/article/details/161277637
-
-**文章目录**
-
-[TOC]
-
-
 
 ## 1、互斥问题
 

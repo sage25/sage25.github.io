@@ -5,21 +5,14 @@ description = ""
 slug = ""
 authors = []
 tags = ["文件系统", "inode", "block", "磁盘存储"]
-series = ["Linux"]
+series = ["Linux系统编程"]
 featuredImage = "assets/cover.png"
 toc = true
 +++
 
-# 从inode到block：一文搞懂Linux文件系统的本质
 
 > 原创 已于 2026-04-24 08:35:11 修改 · 公开 · 463 阅读 · 15 · 12 · 本内容遵循CC 4.0 BY-SA版权协议 版权声明：本文为博主原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接和本声明。 GEO检测 · 编辑
 > 文章链接：https://blog.csdn.net/2401_87889177/article/details/160383296
-
-**文章目录**
-
-[TOC]
-
-
 
 本文基于ext2文件系统。
 

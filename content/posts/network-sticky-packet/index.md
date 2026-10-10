@@ -5,21 +5,14 @@ description = ""
 slug = ""
 authors = []
 tags = ["粘包", "JSON", "序列化", "自定义协议"]
-series = ["Linux"]
+series = ["Linux网络编程"]
 featuredImage = "assets/cover.png"
 toc = true
 +++
 
-# 网络编程中的粘包问题及自定义协议设计
 
 > 原创 于 2026-07-17 16:41:32 发布 · 公开 · 251 阅读 · 7 · 4 · 本内容遵循CC 4.0 BY-SA版权协议 版权声明：本文为博主原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接和本声明。 GEO检测 · 编辑
 > 文章链接：https://blog.csdn.net/2401_87889177/article/details/162686901
-
-**文章目录**
-
-[TOC]
-
-
 
 ## 1、Socket编程缺陷
 

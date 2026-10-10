@@ -5,12 +5,10 @@ description = ""
 slug = ""
 authors = []
 tags = ["数据链路层", "MAC", "ARP", "以太网"]
-series = ["Linux"]
+series = ["Linux网络编程"]
 featuredImage = "assets/cover.png"
 toc = true
 +++
-
-# 数据链路层如何完成局域网内的数据交付
 
 > 原创 于 2026-09-08 13:20:59 发布 · 公开 · 96 阅读 · 4 · 4 · 本内容遵循CC 4.0 BY-SA版权协议 版权声明：本文为博主原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接和本声明。 GEO检测 · 编辑
 > 文章链接：https://blog.csdn.net/2401_87889177/article/details/163510873

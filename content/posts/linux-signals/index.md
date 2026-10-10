@@ -5,21 +5,13 @@ description = ""
 slug = ""
 authors = []
 tags = ["信号", "信号处理", "阻塞", "未决信号"]
-series = ["Linux"]
+series = ["Linu系统编程x"]
 featuredImage = "assets/cover.png"
 toc = true
 +++
 
-# Linux信号深度解剖：5种产生、3张表、4次切换
-
 > 原创 于 2026-05-11 17:04:45 发布 · 公开 · 535 阅读 · 22 · 19 · 本内容遵循CC 4.0 BY-SA版权协议 版权声明：本文为博主原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接和本声明。 GEO检测 · 编辑
 > 文章链接：https://blog.csdn.net/2401_87889177/article/details/160900996
-
-**文章目录**
-
-[TOC]
-
-
 
 ## 1、信号的认识
 

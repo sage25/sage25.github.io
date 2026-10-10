@@ -5,21 +5,14 @@ description = ""
 slug = ""
 authors = []
 tags = ["UDP", "协议栈", "守护进程", "setsid"]
-series = ["Linux"]
+series = ["Linux网络编程"]
 featuredImage = "assets/cover.png"
 toc = true
 +++
 
-# UDP协议栈内核数据结构与守护进程创建流程分析
 
 > 原创 于 2026-08-09 09:07:16 发布 · 公开 · 175 阅读 · 2 · 5 · 本内容遵循CC 4.0 BY-SA版权协议 版权声明：本文为博主原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接和本声明。 GEO检测 · 编辑
 > 文章链接：https://blog.csdn.net/2401_87889177/article/details/163046600
-
-**文章目录**
-
-[TOC]
-
-
 
 ## 1 UDP 原理
 

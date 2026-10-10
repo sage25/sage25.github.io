@@ -5,21 +5,13 @@ description = ""
 slug = ""
 authors = []
 tags = ["ELF", "动态链接", "程序加载"]
-series = ["Linux"]
+series = ["Linux系统编程"]
 featuredImage = "assets/cover.png"
 toc = true
 +++
 
-# ELF文件深度解析：从结构到动/静态链接的底层原理
-
 > 原创 于 2026-04-27 08:00:00 发布 · 公开 · 516 阅读 · 8 · 13 · 本内容遵循CC 4.0 BY-SA版权协议 版权声明：本文为博主原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接和本声明。 GEO检测 · 编辑
 > 文章链接：https://blog.csdn.net/2401_87889177/article/details/160500982
-
-**文章目录**
-
-[TOC]
-
-
 
 ## 1、简介ELF文件
 

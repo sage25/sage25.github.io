@@ -1,0 +1,85 @@
+<svg id="mermaid-svg-ngLtcaiNliQUCbOK" width="100%" xmlns="http://www.w3.org/2000/svg" class="flowchart" style="max-width: 401.515625px;" viewBox="0 0 401.515625 70">
+  <style>#mermaid-svg-ngLtcaiNliQUCbOK{font-family:"trebuchet ms",verdana,arial,sans-serif;font-size:16px;fill:#333;}@keyframes edge-animation-frame{from{stroke-dashoffset:0;}}@keyframes dash{to{stroke-dashoffset:0;}}#mermaid-svg-ngLtcaiNliQUCbOK .edge-animation-slow{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 50s linear infinite;stroke-linecap:round;}#mermaid-svg-ngLtcaiNliQUCbOK .edge-animation-fast{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 20s linear infinite;stroke-linecap:round;}#mermaid-svg-ngLtcaiNliQUCbOK .error-icon{fill:#552222;}#mermaid-svg-ngLtcaiNliQUCbOK .error-text{fill:#552222;stroke:#552222;}#mermaid-svg-ngLtcaiNliQUCbOK .edge-thickness-normal{stroke-width:1px;}#mermaid-svg-ngLtcaiNliQUCbOK .edge-thickness-thick{stroke-width:3.5px;}#mermaid-svg-ngLtcaiNliQUCbOK .edge-pattern-solid{stroke-dasharray:0;}#mermaid-svg-ngLtcaiNliQUCbOK .edge-thickness-invisible{stroke-width:0;fill:none;}#mermaid-svg-ngLtcaiNliQUCbOK .edge-pattern-dashed{stroke-dasharray:3;}#mermaid-svg-ngLtcaiNliQUCbOK .edge-pattern-dotted{stroke-dasharray:2;}#mermaid-svg-ngLtcaiNliQUCbOK .marker{fill:#333333;stroke:#333333;}#mermaid-svg-ngLtcaiNliQUCbOK .marker.cross{stroke:#333333;}#mermaid-svg-ngLtcaiNliQUCbOK svg{font-family:"trebuchet ms",verdana,arial,sans-serif;font-size:16px;}#mermaid-svg-ngLtcaiNliQUCbOK p{margin:0;}#mermaid-svg-ngLtcaiNliQUCbOK .label{font-family:"trebuchet ms",verdana,arial,sans-serif;color:#333;}#mermaid-svg-ngLtcaiNliQUCbOK .cluster-label text{fill:#333;}#mermaid-svg-ngLtcaiNliQUCbOK .cluster-label span{color:#333;}#mermaid-svg-ngLtcaiNliQUCbOK .cluster-label span p{background-color:transparent;}#mermaid-svg-ngLtcaiNliQUCbOK .label text,#mermaid-svg-ngLtcaiNliQUCbOK span{fill:#333;color:#333;}#mermaid-svg-ngLtcaiNliQUCbOK .node rect,#mermaid-svg-ngLtcaiNliQUCbOK .node circle,#mermaid-svg-ngLtcaiNliQUCbOK .node ellipse,#mermaid-svg-ngLtcaiNliQUCbOK .node polygon,#mermaid-svg-ngLtcaiNliQUCbOK .node path{fill:#ECECFF;stroke:#9370DB;stroke-width:1px;}#mermaid-svg-ngLtcaiNliQUCbOK .rough-node .label text,#mermaid-svg-ngLtcaiNliQUCbOK .node .label text,#mermaid-svg-ngLtcaiNliQUCbOK .image-shape .label,#mermaid-svg-ngLtcaiNliQUCbOK .icon-shape .label{text-anchor:middle;}#mermaid-svg-ngLtcaiNliQUCbOK .node .katex path{fill:#000;stroke:#000;stroke-width:1px;}#mermaid-svg-ngLtcaiNliQUCbOK .rough-node .label,#mermaid-svg-ngLtcaiNliQUCbOK .node .label,#mermaid-svg-ngLtcaiNliQUCbOK .image-shape .label,#mermaid-svg-ngLtcaiNliQUCbOK .icon-shape .label{text-align:center;}#mermaid-svg-ngLtcaiNliQUCbOK .node.clickable{cursor:pointer;}#mermaid-svg-ngLtcaiNliQUCbOK .root .anchor path{fill:#333333!important;stroke-width:0;stroke:#333333;}#mermaid-svg-ngLtcaiNliQUCbOK .arrowheadPath{fill:#333333;}#mermaid-svg-ngLtcaiNliQUCbOK .edgePath .path{stroke:#333333;stroke-width:2.0px;}#mermaid-svg-ngLtcaiNliQUCbOK .flowchart-link{stroke:#333333;fill:none;}#mermaid-svg-ngLtcaiNliQUCbOK .edgeLabel{background-color:rgba(232,232,232, 0.8);text-align:center;}#mermaid-svg-ngLtcaiNliQUCbOK .edgeLabel p{background-color:rgba(232,232,232, 0.8);}#mermaid-svg-ngLtcaiNliQUCbOK .edgeLabel rect{opacity:0.5;background-color:rgba(232,232,232, 0.8);fill:rgba(232,232,232, 0.8);}#mermaid-svg-ngLtcaiNliQUCbOK .labelBkg{background-color:rgba(232, 232, 232, 0.5);}#mermaid-svg-ngLtcaiNliQUCbOK .cluster rect{fill:#ffffde;stroke:#aaaa33;stroke-width:1px;}#mermaid-svg-ngLtcaiNliQUCbOK .cluster text{fill:#333;}#mermaid-svg-ngLtcaiNliQUCbOK .cluster span{color:#333;}#mermaid-svg-ngLtcaiNliQUCbOK div.mermaidTooltip{position:absolute;text-align:center;max-width:200px;padding:2px;font-family:"trebuchet ms",verdana,arial,sans-serif;font-size:12px;background:hsl(80, 100%, 96.2745098039%);border:1px solid #aaaa33;border-radius:2px;pointer-events:none;z-index:100;}#mermaid-svg-ngLtcaiNliQUCbOK .flowchartTitleText{text-anchor:middle;font-size:18px;fill:#333;}#mermaid-svg-ngLtcaiNliQUCbOK rect.text{fill:none;stroke-width:0;}#mermaid-svg-ngLtcaiNliQUCbOK .icon-shape,#mermaid-svg-ngLtcaiNliQUCbOK .image-shape{background-color:rgba(232,232,232, 0.8);text-align:center;}#mermaid-svg-ngLtcaiNliQUCbOK .icon-shape p,#mermaid-svg-ngLtcaiNliQUCbOK .image-shape p{background-color:rgba(232,232,232, 0.8);padding:2px;}#mermaid-svg-ngLtcaiNliQUCbOK .icon-shape .label rect,#mermaid-svg-ngLtcaiNliQUCbOK .image-shape .label rect{opacity:0.5;background-color:rgba(232,232,232, 0.8);fill:rgba(232,232,232, 0.8);}#mermaid-svg-ngLtcaiNliQUCbOK .label-icon{display:inline-block;height:1em;overflow:visible;vertical-align:-0.125em;}#mermaid-svg-ngLtcaiNliQUCbOK .node .label-icon path{fill:currentColor;stroke:revert;stroke-width:revert;}#mermaid-svg-ngLtcaiNliQUCbOK :root{--mermaid-font-family:"trebuchet ms",verdana,arial,sans-serif;}</style>
+  <g>
+   <marker id="mermaid-svg-ngLtcaiNliQUCbOK_flowchart-v2-pointEnd" class="marker flowchart-v2" viewBox="0 0 10 10" refX="5" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto">
+    <path d="M 0 0 L 10 5 L 0 10 z" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path>
+   </marker>
+   <marker id="mermaid-svg-ngLtcaiNliQUCbOK_flowchart-v2-pointStart" class="marker flowchart-v2" viewBox="0 0 10 10" refX="4.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto">
+    <path d="M 0 5 L 10 10 L 10 0 z" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path>
+   </marker>
+   <marker id="mermaid-svg-ngLtcaiNliQUCbOK_flowchart-v2-circleEnd" class="marker flowchart-v2" viewBox="0 0 10 10" refX="11" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto">
+    <circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></circle>
+   </marker>
+   <marker id="mermaid-svg-ngLtcaiNliQUCbOK_flowchart-v2-circleStart" class="marker flowchart-v2" viewBox="0 0 10 10" refX="-1" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto">
+    <circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></circle>
+   </marker>
+   <marker id="mermaid-svg-ngLtcaiNliQUCbOK_flowchart-v2-crossEnd" class="marker cross flowchart-v2" viewBox="0 0 11 11" refX="12" refY="5.2" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto">
+    <path d="M 1,1 l 9,9 M 10,1 l -9,9" class="arrowMarkerPath" style="stroke-width: 2; stroke-dasharray: 1, 0;"></path>
+   </marker>
+   <marker id="mermaid-svg-ngLtcaiNliQUCbOK_flowchart-v2-crossStart" class="marker cross flowchart-v2" viewBox="0 0 11 11" refX="-1" refY="5.2" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto">
+    <path d="M 1,1 l 9,9 M 10,1 l -9,9" class="arrowMarkerPath" style="stroke-width: 2; stroke-dasharray: 1, 0;"></path>
+   </marker>
+   <g class="root">
+    <g class="clusters"></g>
+    <g class="edgePaths">
+     <path d="M110.914,35L115.081,35C119.247,35,127.581,35,135.247,35C142.914,35,149.914,35,153.414,35L156.914,35" id="L_A_B_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" marker-end="url(#mermaid-svg-ngLtcaiNliQUCbOK_flowchart-v2-pointEnd)"></path>
+     <path d="M247.852,35L252.018,35C256.185,35,264.518,35,272.185,35C279.852,35,286.852,35,290.352,35L293.852,35" id="L_B_C_0" class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link" style=";" marker-end="url(#mermaid-svg-ngLtcaiNliQUCbOK_flowchart-v2-pointEnd)"></path>
+    </g>
+    <g class="edgeLabels">
+     <g class="edgeLabel">
+      <g class="label" transform="translate(0, 0)">
+       <foreignObject width="0" height="0">
+        <div class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;" xmlns="http://www.w3.org/1999/xhtml">
+         <span class="edgeLabel"></span>
+        </div>
+       </foreignObject>
+      </g>
+     </g>
+     <g class="edgeLabel">
+      <g class="label" transform="translate(0, 0)">
+       <foreignObject width="0" height="0">
+        <div class="labelBkg" style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;" xmlns="http://www.w3.org/1999/xhtml">
+         <span class="edgeLabel"></span>
+        </div>
+       </foreignObject>
+      </g>
+     </g>
+    </g>
+    <g class="nodes">
+     <g class="node default" id="flowchart-A-0" transform="translate(59.45703125, 35)">
+      <rect class="basic label-container" style="" x="-51.45703125" y="-27" width="102.9140625" height="54"></rect>
+      <g class="label" style="" transform="translate(-21.45703125, -12)">
+       <rect></rect>
+       <foreignObject width="42.9140625" height="24">
+        <div style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 580px; text-align: center;" xmlns="http://www.w3.org/1999/xhtml">
+         <span class="nodeLabel"><p>select</p></span>
+        </div>
+       </foreignObject>
+      </g>
+     </g>
+     <g class="node default" id="flowchart-B-1" transform="translate(204.3828125, 35)">
+      <rect class="basic label-container" style="" x="-43.46875" y="-27" width="86.9375" height="54"></rect>
+      <g class="label" style="" transform="translate(-13.46875, -12)">
+       <rect></rect>
+       <foreignObject width="26.9375" height="24">
+        <div style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 580px; text-align: center;" xmlns="http://www.w3.org/1999/xhtml">
+         <span class="nodeLabel"><p>poll</p></span>
+        </div>
+       </foreignObject>
+      </g>
+     </g>
+     <g class="node default" id="flowchart-C-3" transform="translate(345.68359375, 35)">
+      <rect class="basic label-container" style="" x="-47.83203125" y="-27" width="95.6640625" height="54"></rect>
+      <g class="label" style="" transform="translate(-17.83203125, -12)">
+       <rect></rect>
+       <foreignObject width="35.6640625" height="24">
+        <div style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 580px; text-align: center;" xmlns="http://www.w3.org/1999/xhtml">
+         <span class="nodeLabel"><p>epoll</p></span>
+        </div>
+       </foreignObject>
+      </g>
+     </g>
+    </g>
+   </g>
+  </g>
+ </svg>

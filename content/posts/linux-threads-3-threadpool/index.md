@@ -5,21 +5,14 @@ description = ""
 slug = ""
 authors = []
 tags = ["线程池", "信号量", "生产者消费者", "单例模式"]
-series = ["Linux"]
+series = ["Linux系统编程"]
 featuredImage = "assets/cover.png"
 toc = true
 +++
 
-# Linux多线程编程(三)：手写环形队列、日志系统与线程池
 
 > 原创 于 2026-06-06 08:43:55 发布 · 公开 · 243 阅读 · 5 · 4 · 本内容遵循CC 4.0 BY-SA版权协议 版权声明：本文为博主原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接和本声明。 GEO检测 · 编辑
 > 文章链接：https://blog.csdn.net/2401_87889177/article/details/161461308
-
-**文章目录**
-
-[TOC]
-
-
 
 ## 1、POSIX信号量
 

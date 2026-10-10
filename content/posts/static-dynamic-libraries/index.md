@@ -5,21 +5,13 @@ description = ""
 slug = ""
 authors = []
 tags = ["静态库", "动态库", "GCC", "Makefile"]
-series = ["Linux"]
+series = ["Linux系统编程"]
 featuredImage = "assets/cover.png"
 toc = true
 +++
 
-# 静态库与动态库详解：原理、制作与实际应用
-
 > 原创 已于 2026-04-25 12:39:57 修改 · 公开 · 372 阅读 · 15 · 14 · 本内容遵循CC 4.0 BY-SA版权协议 版权声明：本文为博主原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接和本声明。 GEO检测 · 编辑
 > 文章链接：https://blog.csdn.net/2401_87889177/article/details/160476136
-
-**文章目录**
-
-[TOC]
-
-
 
 ## 1、前言
 

@@ -5,21 +5,14 @@ description = ""
 slug = ""
 authors = []
 tags = ["Socket", "UDP", "TCP", "套接字"]
-series = ["Linux"]
+series = ["Linux网络编程"]
 featuredImage = "assets/cover.png"
 toc = true
 +++
 
-# Linux Socket 编程从入门到实战：UDP群聊与TCP远程连接
 
 > 原创 于 2026-07-08 09:51:15 发布 · 公开 · 225 阅读 · 7 · 5 · 本内容遵循CC 4.0 BY-SA版权协议 版权声明：本文为博主原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接和本声明。 GEO检测 · 编辑
 > 文章链接：https://blog.csdn.net/2401_87889177/article/details/161737781
-
-**文章目录**
-
-[TOC]
-
-
 
 ## 1、网络协议
 

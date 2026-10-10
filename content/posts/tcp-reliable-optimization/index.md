@@ -5,19 +5,14 @@ description = ""
 slug = ""
 authors = []
 tags = ["TCP", "可靠传输", "滑动窗口", "拥塞控制"]
-series = ["Linux"]
+series = ["Linux网络编程"]
 featuredImage = "assets/cover.png"
 toc = true
 +++
 
-# TCP 可靠传输与性能优化核心机制详解
 
 > 原创 于 2026-08-15 22:02:27 发布 · 公开 · 408 阅读 · 10 · 8 · 本内容遵循CC 4.0 BY-SA版权协议 版权声明：本文为博主原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接和本声明。 GEO检测 · 编辑
 > 文章链接：https://blog.csdn.net/2401_87889177/article/details/163080479
-
-**文章目录**
-
-[TOC]
 
 ![TCP 报头](./assets/20_1.png)
 

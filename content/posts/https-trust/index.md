@@ -5,21 +5,13 @@ description = ""
 slug = ""
 authors = []
 tags = ["HTTPS", "加密", "CA证书", "中间人攻击"]
-series = ["Linux"]
+series = ["Linux网络编程"]
 featuredImage = "assets/cover.png"
 toc = true
 +++
 
-# HTTPS凭什么可信？
-
 > 原创 于 2026-07-21 15:30:40 发布 · 公开 · 308 阅读 · 10 · 5 · 本内容遵循CC 4.0 BY-SA版权协议 版权声明：本文为博主原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接和本声明。 GEO检测 · 编辑
 > 文章链接：https://blog.csdn.net/2401_87889177/article/details/162978059
-
-**文章目录**
-
-[TOC]
-
-
 
 ## 1 基础概念
 

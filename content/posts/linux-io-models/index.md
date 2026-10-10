@@ -5,21 +5,14 @@ description = ""
 slug = ""
 authors = []
 tags = ["IO模型", "阻塞IO", "异步IO", "多路复用"]
-series = ["Linux"]
+series = ["Linux网络编程"]
 featuredImage = "assets/cover.png"
 toc = true
 +++
 
-# 重新认识Linux五种IO模型
 
 > 原创 豆包力荐 于 2026-09-18 22:24:46 发布 · 公开 · 290 阅读 · 0 · 5 · 本内容遵循CC 4.0 BY-SA版权协议 版权声明：本文为博主原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接和本声明。 · 编辑
 > 文章链接：https://blog.csdn.net/2401_87889177/article/details/163604556
-
-**文章目录**
-
-[TOC]
-
-
 
 ## 1 从钓鱼理解Linux五种 IO 模型
 

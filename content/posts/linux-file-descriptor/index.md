@@ -5,20 +5,14 @@ description = ""
 slug = ""
 authors = []
 tags = ["文件描述符", "fd", "缓冲区", "重定向"]
-series = ["Linux"]
+series = ["Linux系统编程"]
 featuredImage = "assets/cover.png"
 toc = true
 +++
 
-# 彻底理解 Linux 文件描述符：从 open/close 到重定向与缓冲区
 
 > 原创 于 2026-04-20 20:00:00 发布 · 公开 · 135 阅读 · 5 · 2 · 本内容遵循CC 4.0 BY-SA版权协议 版权声明：本文为博主原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接和本声明。 GEO检测 · 编辑
 > 文章链接：https://blog.csdn.net/2401_87889177/article/details/160307870
-
-**文章目录**
-
-[TOC]
-
 
 本文详解 Linux 文件描述符、重定向、dup2、一切皆文件及语言级缓冲区等概念。
 

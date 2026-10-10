@@ -5,21 +5,14 @@ description = ""
 slug = ""
 authors = []
 tags = ["管道", "进程间通信", "进程池"]
-series = ["Linux"]
+series = ["Linux系统编程"]
 featuredImage = "assets/cover.png"
 toc = true
 +++
 
-# 管道通信深度剖析：从匿名管道到命名管道，手写进程池
 
 > 原创 已于 2026-05-08 23:07:36 修改 · 公开 · 498 阅读 · 17 · 11 · 本内容遵循CC 4.0 BY-SA版权协议 版权声明：本文为博主原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接和本声明。 GEO检测 · 编辑
 > 文章链接：https://blog.csdn.net/2401_87889177/article/details/160566224
-
-**文章目录**
-
-[TOC]
-
-
 
 ## 1、前言
 

@@ -5,21 +5,14 @@ description = ""
 slug = ""
 authors = []
 tags = ["HTTP", "C++", "Cookie", "Session"]
-series = ["Linux"]
+series = ["Linux网络编程"]
 featuredImage = "assets/cover.png"
 toc = true
 +++
 
-# HTTP请求响应解析及C++实现静态与动态服务
 
 > 原创 于 2026-07-21 15:27:38 发布 · 公开 · 359 阅读 · 10 · 2 · 本内容遵循CC 4.0 BY-SA版权协议 版权声明：本文为博主原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接和本声明。 GEO检测 · 编辑
 > 文章链接：https://blog.csdn.net/2401_87889177/article/details/162814930
-
-**文章目录**
-
-[TOC]
-
-
 
 ## 1HTTP原理
 
